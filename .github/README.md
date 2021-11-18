@@ -1,3 +1,6 @@
+# James Greene Understrap child theme
+# Forked from understrap/understrap-child
+
 # understrap-child
 Basic Child Theme for Understrap Theme Framework: https://github.com/understrap/understrap
 
