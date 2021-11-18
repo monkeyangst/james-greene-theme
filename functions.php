@@ -34,8 +34,15 @@ add_action( 'after_setup_theme', 'add_child_theme_textdomain' );
 
 
 /*
-The following are my own additions.
+The following are my BH's additions.
 */
+
+function jg_enqueue_fonts() {
+    wp_enqueue_style( 'jamesgreene-google-fonts', 'https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+
+}
+add_action( 'wp_enqueue_scripts', 'jg_enqueue_fonts' );
+
 
 function jg_gallery_shortcode() {
     ?>
