@@ -18,9 +18,9 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5;
   color: #212529;
   text-align: left;
@@ -117,12 +117,12 @@ sup {
 }
 
 a {
-  color: #5533ff;
+  color: #000000;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #2600e6;
+  color: black;
   text-decoration: underline;
 }
 
@@ -318,7 +318,7 @@ template {
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
-  --purple: #5533ff;
+  --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
   --orange: #fd7e14;
@@ -329,20 +329,22 @@ template {
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #5533ff;
-  --secondary: #6c757d;
+  --primary: #656c1b;
+  --secondary: #222d2f;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
+  --light: #F0F0EE;
+  --dark: #18161E;
+  --light-accent: #cdad94;
+  --dark-accent: #655a53;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif: "Raleway", Helvetica, Arial, sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -404,41 +406,41 @@ template {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #cfc6ff;
+  background-color: #d4d6bf;
 }
 .table-primary th,
 .table-primary td,
 .table-primary thead th,
 .table-primary tbody + tbody {
-  border-color: #a795ff;
+  border-color: #afb388;
 }
 
 .table-hover .table-primary:hover {
-  background-color: #baadff;
+  background-color: #caccaf;
 }
 .table-hover .table-primary:hover > td,
 .table-hover .table-primary:hover > th {
-  background-color: #baadff;
+  background-color: #caccaf;
 }
 
 .table-secondary,
 .table-secondary > th,
 .table-secondary > td {
-  background-color: #d6d8db;
+  background-color: #c1c4c5;
 }
 .table-secondary th,
 .table-secondary td,
 .table-secondary thead th,
 .table-secondary tbody + tbody {
-  border-color: #b3b7bb;
+  border-color: #8c9293;
 }
 
 .table-hover .table-secondary:hover {
-  background-color: #c8cbcf;
+  background-color: #b4b7b9;
 }
 .table-hover .table-secondary:hover > td,
 .table-hover .table-secondary:hover > th {
-  background-color: #c8cbcf;
+  background-color: #b4b7b9;
 }
 
 .table-success,
@@ -524,41 +526,81 @@ template {
 .table-light,
 .table-light > th,
 .table-light > td {
-  background-color: #fdfdfe;
+  background-color: #fbfbfa;
 }
 .table-light th,
 .table-light td,
 .table-light thead th,
 .table-light tbody + tbody {
-  border-color: #fbfcfc;
+  border-color: #f7f7f6;
 }
 
 .table-hover .table-light:hover {
-  background-color: #ececf6;
+  background-color: #f0f0ec;
 }
 .table-hover .table-light:hover > td,
 .table-hover .table-light:hover > th {
-  background-color: #ececf6;
+  background-color: #f0f0ec;
 }
 
 .table-dark,
 .table-dark > th,
 .table-dark > td {
-  background-color: #c6c8ca;
+  background-color: #bebec0;
 }
 .table-dark th,
 .table-dark td,
 .table-dark thead th,
 .table-dark tbody + tbody {
-  border-color: #95999c;
+  border-color: #87868a;
 }
 
 .table-hover .table-dark:hover {
-  background-color: #b9bbbe;
+  background-color: #b1b1b3;
 }
 .table-hover .table-dark:hover > td,
 .table-hover .table-dark:hover > th {
-  background-color: #b9bbbe;
+  background-color: #b1b1b3;
+}
+
+.table-light-accent,
+.table-light-accent > th,
+.table-light-accent > td {
+  background-color: #f1e8e1;
+}
+.table-light-accent th,
+.table-light-accent td,
+.table-light-accent thead th,
+.table-light-accent tbody + tbody {
+  border-color: #e5d4c7;
+}
+
+.table-hover .table-light-accent:hover {
+  background-color: #e9dbd0;
+}
+.table-hover .table-light-accent:hover > td,
+.table-hover .table-light-accent:hover > th {
+  background-color: #e9dbd0;
+}
+
+.table-dark-accent,
+.table-dark-accent > th,
+.table-dark-accent > td {
+  background-color: #d4d1cf;
+}
+.table-dark-accent th,
+.table-dark-accent td,
+.table-dark-accent thead th,
+.table-dark-accent tbody + tbody {
+  border-color: #afa9a6;
+}
+
+.table-hover .table-dark-accent:hover {
+  background-color: #c8c4c2;
+}
+.table-hover .table-dark-accent:hover > td,
+.table-hover .table-dark-accent:hover > th {
+  background-color: #c8c4c2;
 }
 
 .table-active,
@@ -825,12 +867,12 @@ mark,
 
 .has-purple-color,
 .has-purple-color:visited {
-  color: #5533ff;
+  color: #6f42c1;
 }
 
 .has-purple-background-color {
-  background-color: #5533ff;
-  border-color: #5533ff;
+  background-color: #6f42c1;
+  border-color: #6f42c1;
 }
 
 .has-pink-color,
@@ -935,22 +977,22 @@ mark,
 
 .has-primary-color,
 .has-primary-color:visited {
-  color: #5533ff;
+  color: #656c1b;
 }
 
 .has-primary-background-color {
-  background-color: #5533ff;
-  border-color: #5533ff;
+  background-color: #656c1b;
+  border-color: #656c1b;
 }
 
 .has-secondary-color,
 .has-secondary-color:visited {
-  color: #6c757d;
+  color: #222d2f;
 }
 
 .has-secondary-background-color {
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #222d2f;
+  border-color: #222d2f;
 }
 
 .has-success-color,
@@ -995,22 +1037,42 @@ mark,
 
 .has-light-color,
 .has-light-color:visited {
-  color: #f8f9fa;
+  color: #F0F0EE;
 }
 
 .has-light-background-color {
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  background-color: #F0F0EE;
+  border-color: #F0F0EE;
 }
 
 .has-dark-color,
 .has-dark-color:visited {
-  color: #343a40;
+  color: #18161E;
 }
 
 .has-dark-background-color {
-  background-color: #343a40;
-  border-color: #343a40;
+  background-color: #18161E;
+  border-color: #18161E;
+}
+
+.has-light-accent-color,
+.has-light-accent-color:visited {
+  color: #cdad94;
+}
+
+.has-light-accent-background-color {
+  background-color: #cdad94;
+  border-color: #cdad94;
+}
+
+.has-dark-accent-color,
+.has-dark-accent-color:visited {
+  color: #655a53;
+}
+
+.has-dark-accent-background-color {
+  background-color: #655a53;
+  border-color: #655a53;
 }
 
 figure.wp-block-image {

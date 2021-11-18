@@ -1,0 +1,304 @@
+#index-wrapper, #single-wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+
+}
+
+a {
+  font-weight: 400;
+  color: theme-color('primary');
+}
+
+h1 {
+  text-align: center;
+}
+
+a.navbar-brand,  h1.navbar-brand {
+  display: flex;
+  @extend .justify-content-center;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.navbar {
+  border-bottom: 1px solid theme-color('primary');
+}
+
+.site-footer {
+  border-top: 1px solid theme-color('primary');
+  padding-top: 10px;
+
+}
+
+// Gallery
+.jg-gallery-thumbnail a {
+  position: relative;
+  margin: 0 !important;
+  display: flex;
+}
+
+.jg-gallery-thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+.jg-gallery-thumbnail-caption {
+  background-color: $dark;
+  color: $light;
+  position: absolute;
+  line-height: 100%;
+  bottom: 0;
+  left: 0;
+  opacity: .7;
+  height: 100%;
+  width: 100%;
+  padding: 20px 0;
+  margin-bottom: 0;
+  display: none;
+  text-align: center;
+}
+
+.jg-gallery-image {
+  padding: 0;
+}
+
+// WooCommerce
+
+.update-cart-button {
+  @extend .btn;
+  @extend .btn-primary;
+}
+
+.add_to_cart_button {
+  @extend .btn;
+  @extend .btn-sm;
+  @extend .btn-outline-secondary;
+}
+.single_add_to_cart_button {
+  @extend .add_to_cart_button;
+}
+
+.reset_variations {
+  @extend .btn;
+  @extend .btn-sm;
+  @extend .btn-outline-danger;
+}
+
+.amount {
+  font-family: Helvetica, sans-serif;
+}
+
+// Single product meta
+.sku_wrapper, .posted_in {
+  display: block;
+}
+
+.sku {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.product-title-date {
+  @extend .d-flex;
+  @extend .align-items-center;
+}
+.product-date {
+  font-size: 1.2rem;
+  @extend .text-secondary;
+  @extend .ml-4;
+}
+
+
+
+td.label label {
+  @extend .form-group;
+}
+td.value select {
+  @extend .form-control;
+}
+
+.input-text {
+  @extend .form-control;
+  @extend .form-control-sm;
+}
+
+.jg-woocommerce-message {
+  @extend .alert;
+  @extend .alert-success;
+  @include clearfix;
+  font-size: 1.1em;
+  @extend .align-content-center;
+}
+
+.jg-woocommerce-info {
+  @extend .alert;
+  @extend .alert-info;
+  @include clearfix;
+  font-size: 1.1em;
+  @extend .align-content-center;
+}
+
+.jg-woocommerce-message a.wc-forward {
+  @extend .btn;
+  @extend .btn-success;
+  display: block;
+  @extend .float-right;
+}
+
+// wc-variations-radio-buttons plugin
+// I copied the variable.php template from the plugin to this theme, replacing the one from Understrap.
+div.container.variations div.value div {
+  @extend .form-check;
+}
+
+div.container.variations input[type="radio"] {
+  @extend .form-check-input;
+  
+}
+.woocommerce div.product form.cart .variations label {
+  @extend .form-check-label;
+  font-weight: normal;
+}
+
+.variations .form-check-input:disabled ~ .form-check-label::after {
+  margin-left: 2em;
+  content: 'SOLD';
+  color: Red;
+}
+
+
+// Jetpack Tiled Gallery
+
+//This is my own addition, slide-over captions
+caption.tile-title {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: rgba(0,0,0,.50);
+  color: White;
+  @extend h2;
+  padding-top: 100px;
+  text-align: center;
+  display: none;
+}
+
+// Jetpack Image Carousel
+
+/* Center the caption. */
+.jp-carousel-info h2 {
+  text-align: center !important;
+  }
+  
+  .jp-carousel-image-exif a.buy-button {
+    @extend .btn;
+    @extend .btn-primary;
+    @extend .btn-block;
+  }
+
+  ul.jp-carousel-image-exif li {
+    width: 100% !important;
+  }
+  
+  // Hide useless "View full size" link
+  a.jp-carousel-image-download {
+    display: none !important;
+  }
+  
+
+ 
+
+// ABOUT ME page
+
+.about-bio {
+  max-width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.about-bio p {
+  text-align: justify;
+}
+
+.resume-item {
+  //@extend .row;
+  margin-bottom: 1em;
+  text-align: justify;
+}
+
+.resume-dates {
+  //@extend .col-3;
+  font-weight: 500;
+}
+
+.resume-job {
+  //@extend .col-9;
+  margin-left: 50px;
+}
+
+.resume-job + .resume-job {
+  margin-top: 1em;}
+
+.resume-title {
+  font-weight: 500;
+}
+.resume-institution {
+  font-style: italic;
+}
+
+.jp-carousel-titleanddesc-desc p {
+  padding-bottom: 40px;
+
+}
+
+// Checkout form
+
+.woocommerce-input-wrapper {
+  width: 100%;
+  
+}
+
+h3#ship-to-different-address {
+  font-size: 1rem;
+}
+
+.woocommerce form .form-row label {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.entry-meta {
+  font-size: .75em;
+  margin-bottom: 20px;
+
+}
+
+body.single-post .entry-meta {
+  text-align:center;
+}
+
+.entry-footer .cat-links {
+  display: none;
+}
+
+#index-wrapper article.post {
+  margin-bottom: 48px;
+}
+
+a.post-edit-link {
+  @extend .btn;
+  @extend .btn-warning;
+  @extend .btn-sm;
+}
+
+.format-image .wp-post-image {
+  margin: 0 auto;
+}
+
+.featured-image {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
