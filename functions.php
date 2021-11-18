@@ -194,14 +194,6 @@ function jg_gallery_shortcode() {
     }
     add_filter( 'woocommerce_variation_is_active', 'wcbv_variation_is_active', 10, 2 );
     
-    
-    
-    function flooble_test($data) {
-        echo '<h1>Flooble</h1>';
-    }
-    
-    
-    
     /**
     * Add custom media metadata fields
     *
@@ -286,3 +278,75 @@ function jg_gallery_shortcode() {
         return $post;
     }
     add_filter("attachment_fields_to_save", "add_image_attachment_fields_to_save", null , 2);
+
+
+    /* Add WooCommerce cart button to menu */
+
+    /**
+     * Create Shortcode for WooCommerce Cart Menu Item
+     */
+    function woo_cart_but() {
+        ob_start();
+     
+            $cart_count = WC()->cart->cart_contents_count; // Set variable for cart item count
+            $cart_url = wc_get_cart_url();  // Set Cart URL
+      
+            ?>
+            <li><a class="menu-item cart-contents" href="<?php echo $cart_url; ?>" title="My Basket">
+            <?php
+            if ( $cart_count > 0 ) {
+           ?>
+                <span class="cart-contents-count"><?php echo $cart_count; ?></span>
+            <?php
+            }
+            ?>
+            </a></li>
+            <?php
+                
+        return ob_get_clean();
+    }
+
+    add_filter( 'woocommerce_add_to_cart_fragments', 'woo_cart_but_count' );
+    /**
+     * Add AJAX Shortcode when cart contents update
+     */
+    function woo_cart_but_count( $fragments ) {
+     
+        ob_start();
+        
+        $cart_count = WC()->cart->cart_contents_count;
+        $cart_url = wc_get_cart_url();
+        
+        ?>
+        <a class="cart-contents menu-item" href="<?php echo $cart_url; ?>" title="<?php _e( 'View your shopping cart' ); ?>">
+        <?php
+        if ( $cart_count > 0 ) {
+            ?>
+            <span class="cart-contents-count"><?php echo $cart_count; ?></span>
+            <?php            
+        }
+            ?></a>
+        <?php
+     
+        $fragments['a.cart-contents'] = ob_get_clean();
+         
+        return $fragments;
+    }
+
+    /**
+     * Add WooCommerce Cart Menu Item Shortcode to particular menu
+     */
+    function woo_cart_but_icon ( $items, $args ) {
+           $items .=  do_shortcode('[woo_cart_but]'); // Adding the created Icon via the shortcode already created
+           
+           return $items;
+    }
+
+    add_filter('wp_nav_menu_items', 'woo_cart_but_icon', 10, 2);
+
+    add_shortcode('flooble','flooble_test');
+    add_shortcode('woo_cart_but', 'woo_cart_but' );
+
+    function flooble_test() {
+        return "<h1>FLOOBLE</h1>";
+    }

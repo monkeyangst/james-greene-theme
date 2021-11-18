@@ -2860,7 +2860,7 @@ div.container.variations input.is-invalid[type=radio] ~ .invalid-tooltip {
   }
 }
 
-.btn, .wpcf7 input[type=submit], a.post-edit-link, .jp-carousel-image-exif a.buy-button, .jg-woocommerce-message a.wc-forward, .reset_variations, .add_to_cart_button, .single_add_to_cart_button, .update-cart-button, .woocommerce-info a.button, .woocommerce-notices-wrapper .woocommerce-message a.button {
+.btn, .wpcf7 input[type=submit], a.added_to_cart, a.post-edit-link, .jp-carousel-image-exif a.buy-button, .jg-woocommerce-message a.wc-forward, .reset_variations, .add_to_cart_button, .single_add_to_cart_button, .update-cart-button, .woocommerce-info a.button, .woocommerce-notices-wrapper .woocommerce-message a.button {
   display: inline-block;
   font-weight: 400;
   color: #212529;
@@ -2879,26 +2879,27 @@ div.container.variations input.is-invalid[type=radio] ~ .invalid-tooltip {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
-  .btn, .wpcf7 input[type=submit], a.post-edit-link, .jp-carousel-image-exif a.buy-button, .jg-woocommerce-message a.wc-forward, .reset_variations, .add_to_cart_button, .single_add_to_cart_button, .update-cart-button, .woocommerce-info a.button, .woocommerce-notices-wrapper .woocommerce-message a.button {
+  .btn, .wpcf7 input[type=submit], a.added_to_cart, a.post-edit-link, .jp-carousel-image-exif a.buy-button, .jg-woocommerce-message a.wc-forward, .reset_variations, .add_to_cart_button, .single_add_to_cart_button, .update-cart-button, .woocommerce-info a.button, .woocommerce-notices-wrapper .woocommerce-message a.button {
     transition: none;
   }
 }
-.btn:hover, .wpcf7 input[type=submit]:hover, a.post-edit-link:hover, .jp-carousel-image-exif a.buy-button:hover, .jg-woocommerce-message a.wc-forward:hover, .reset_variations:hover, .add_to_cart_button:hover, .single_add_to_cart_button:hover, .update-cart-button:hover, .woocommerce-info a.button:hover, .woocommerce-notices-wrapper .woocommerce-message a.button:hover {
+.btn:hover, .wpcf7 input[type=submit]:hover, a.added_to_cart:hover, a.post-edit-link:hover, .jp-carousel-image-exif a.buy-button:hover, .jg-woocommerce-message a.wc-forward:hover, .reset_variations:hover, .add_to_cart_button:hover, .single_add_to_cart_button:hover, .update-cart-button:hover, .woocommerce-info a.button:hover, .woocommerce-notices-wrapper .woocommerce-message a.button:hover {
   color: #212529;
   text-decoration: none;
 }
-.btn:focus, .wpcf7 input[type=submit]:focus, a.post-edit-link:focus, .jp-carousel-image-exif a.buy-button:focus, .jg-woocommerce-message a.wc-forward:focus, .reset_variations:focus, .add_to_cart_button:focus, .single_add_to_cart_button:focus, .update-cart-button:focus, .woocommerce-info a.button:focus, .woocommerce-notices-wrapper .woocommerce-message a.button:focus, .btn.focus, .wpcf7 input.focus[type=submit], a.focus.post-edit-link, .jp-carousel-image-exif a.focus.buy-button, .jg-woocommerce-message a.focus.wc-forward, .focus.reset_variations, .focus.add_to_cart_button, .focus.single_add_to_cart_button, .focus.update-cart-button, .woocommerce-info a.focus.button, .woocommerce-notices-wrapper .woocommerce-message a.focus.button {
+.btn:focus, .wpcf7 input[type=submit]:focus, a.added_to_cart:focus, a.post-edit-link:focus, .jp-carousel-image-exif a.buy-button:focus, .jg-woocommerce-message a.wc-forward:focus, .reset_variations:focus, .add_to_cart_button:focus, .single_add_to_cart_button:focus, .update-cart-button:focus, .woocommerce-info a.button:focus, .woocommerce-notices-wrapper .woocommerce-message a.button:focus, .btn.focus, .wpcf7 input.focus[type=submit], a.focus.added_to_cart, a.focus.post-edit-link, .jp-carousel-image-exif a.focus.buy-button, .jg-woocommerce-message a.focus.wc-forward, .focus.reset_variations, .focus.add_to_cart_button, .focus.single_add_to_cart_button, .focus.update-cart-button, .woocommerce-info a.focus.button, .woocommerce-notices-wrapper .woocommerce-message a.focus.button {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(101, 108, 27, 0.25);
 }
-.btn.disabled, .wpcf7 input.disabled[type=submit], a.disabled.post-edit-link, .jp-carousel-image-exif a.disabled.buy-button, .jg-woocommerce-message a.disabled.wc-forward, .disabled.reset_variations, .disabled.add_to_cart_button, .disabled.single_add_to_cart_button, .disabled.update-cart-button, .woocommerce-info a.disabled.button, .woocommerce-notices-wrapper .woocommerce-message a.disabled.button, .btn:disabled, .wpcf7 input[type=submit]:disabled, a.post-edit-link:disabled, .jp-carousel-image-exif a.buy-button:disabled, .jg-woocommerce-message a.wc-forward:disabled, .reset_variations:disabled, .add_to_cart_button:disabled, .single_add_to_cart_button:disabled, .update-cart-button:disabled, .woocommerce-info a.button:disabled, .woocommerce-notices-wrapper .woocommerce-message a.button:disabled {
+.btn.disabled, .wpcf7 input.disabled[type=submit], a.disabled.added_to_cart, a.disabled.post-edit-link, .jp-carousel-image-exif a.disabled.buy-button, .jg-woocommerce-message a.disabled.wc-forward, .disabled.reset_variations, .disabled.add_to_cart_button, .disabled.single_add_to_cart_button, .disabled.update-cart-button, .woocommerce-info a.disabled.button, .woocommerce-notices-wrapper .woocommerce-message a.disabled.button, .btn:disabled, .wpcf7 input[type=submit]:disabled, a.added_to_cart:disabled, a.post-edit-link:disabled, .jp-carousel-image-exif a.buy-button:disabled, .jg-woocommerce-message a.wc-forward:disabled, .reset_variations:disabled, .add_to_cart_button:disabled, .single_add_to_cart_button:disabled, .update-cart-button:disabled, .woocommerce-info a.button:disabled, .woocommerce-notices-wrapper .woocommerce-message a.button:disabled {
   opacity: 0.65;
 }
-.btn:not(:disabled):not(.disabled), .wpcf7 input[type=submit]:not(:disabled):not(.disabled), a.post-edit-link:not(:disabled):not(.disabled), .jp-carousel-image-exif a.buy-button:not(:disabled):not(.disabled), .jg-woocommerce-message a.wc-forward:not(:disabled):not(.disabled), .reset_variations:not(:disabled):not(.disabled), .add_to_cart_button:not(:disabled):not(.disabled), .single_add_to_cart_button:not(:disabled):not(.disabled), .update-cart-button:not(:disabled):not(.disabled), .woocommerce-info a.button:not(:disabled):not(.disabled), .woocommerce-notices-wrapper .woocommerce-message a.button:not(:disabled):not(.disabled) {
+.btn:not(:disabled):not(.disabled), .wpcf7 input[type=submit]:not(:disabled):not(.disabled), a.added_to_cart:not(:disabled):not(.disabled), a.post-edit-link:not(:disabled):not(.disabled), .jp-carousel-image-exif a.buy-button:not(:disabled):not(.disabled), .jg-woocommerce-message a.wc-forward:not(:disabled):not(.disabled), .reset_variations:not(:disabled):not(.disabled), .add_to_cart_button:not(:disabled):not(.disabled), .single_add_to_cart_button:not(:disabled):not(.disabled), .update-cart-button:not(:disabled):not(.disabled), .woocommerce-info a.button:not(:disabled):not(.disabled), .woocommerce-notices-wrapper .woocommerce-message a.button:not(:disabled):not(.disabled) {
   cursor: pointer;
 }
-a.btn.disabled, a.disabled.post-edit-link, .jp-carousel-image-exif a.disabled.buy-button, .jg-woocommerce-message a.disabled.wc-forward, a.disabled.reset_variations, a.disabled.add_to_cart_button, a.disabled.single_add_to_cart_button, a.disabled.update-cart-button, .woocommerce-info a.disabled.button, .woocommerce-notices-wrapper .woocommerce-message a.disabled.button,
+a.btn.disabled, a.disabled.added_to_cart, a.disabled.post-edit-link, .jp-carousel-image-exif a.disabled.buy-button, .jg-woocommerce-message a.disabled.wc-forward, a.disabled.reset_variations, a.disabled.add_to_cart_button, a.disabled.single_add_to_cart_button, a.disabled.update-cart-button, .woocommerce-info a.disabled.button, .woocommerce-notices-wrapper .woocommerce-message a.disabled.button,
 fieldset:disabled a.btn,
+fieldset:disabled a.added_to_cart,
 fieldset:disabled a.post-edit-link,
 fieldset:disabled .jp-carousel-image-exif a.buy-button,
 .jp-carousel-image-exif fieldset:disabled a.buy-button,
@@ -3215,28 +3216,28 @@ fieldset:disabled .woocommerce-notices-wrapper .woocommerce-message a.button,
   box-shadow: 0 0 0 0.2rem rgba(124, 115, 109, 0.5);
 }
 
-.btn-outline-primary, .wpcf7 input[type=submit] {
+.btn-outline-primary, .wpcf7 input[type=submit], a.added_to_cart {
   color: #656c1b;
   border-color: #656c1b;
 }
-.btn-outline-primary:hover, .wpcf7 input[type=submit]:hover {
+.btn-outline-primary:hover, .wpcf7 input[type=submit]:hover, a.added_to_cart:hover {
   color: #fff;
   background-color: #656c1b;
   border-color: #656c1b;
 }
-.btn-outline-primary:focus, .wpcf7 input[type=submit]:focus, .btn-outline-primary.focus, .wpcf7 input.focus[type=submit] {
+.btn-outline-primary:focus, .wpcf7 input[type=submit]:focus, a.added_to_cart:focus, .btn-outline-primary.focus, .wpcf7 input.focus[type=submit], a.focus.added_to_cart {
   box-shadow: 0 0 0 0.2rem rgba(101, 108, 27, 0.5);
 }
-.btn-outline-primary.disabled, .wpcf7 input.disabled[type=submit], .btn-outline-primary:disabled, .wpcf7 input[type=submit]:disabled {
+.btn-outline-primary.disabled, .wpcf7 input.disabled[type=submit], a.disabled.added_to_cart, .btn-outline-primary:disabled, .wpcf7 input[type=submit]:disabled, a.added_to_cart:disabled {
   color: #656c1b;
   background-color: transparent;
 }
-.btn-outline-primary:not(:disabled):not(.disabled):active, .wpcf7 input[type=submit]:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .wpcf7 input[type=submit]:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle, .wpcf7 .show > input.dropdown-toggle[type=submit] {
+.btn-outline-primary:not(:disabled):not(.disabled):active, .wpcf7 input[type=submit]:not(:disabled):not(.disabled):active, a.added_to_cart:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .wpcf7 input[type=submit]:not(:disabled):not(.disabled).active, a.added_to_cart:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle, .wpcf7 .show > input.dropdown-toggle[type=submit], .show > a.dropdown-toggle.added_to_cart {
   color: #fff;
   background-color: #656c1b;
   border-color: #656c1b;
 }
-.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .wpcf7 input[type=submit]:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .wpcf7 input[type=submit]:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus, .wpcf7 .show > input.dropdown-toggle[type=submit]:focus {
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .wpcf7 input[type=submit]:not(:disabled):not(.disabled):active:focus, a.added_to_cart:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .wpcf7 input[type=submit]:not(:disabled):not(.disabled).active:focus, a.added_to_cart:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus, .wpcf7 .show > input.dropdown-toggle[type=submit]:focus, .show > a.dropdown-toggle.added_to_cart:focus {
   box-shadow: 0 0 0 0.2rem rgba(101, 108, 27, 0.5);
 }
 
@@ -3482,25 +3483,25 @@ fieldset:disabled .woocommerce-notices-wrapper .woocommerce-message a.button,
   pointer-events: none;
 }
 
-.btn-lg, .btn-group-lg > .btn, .wpcf7 .btn-group-lg > input[type=submit], .btn-group-lg > a.post-edit-link, .jp-carousel-image-exif .btn-group-lg > a.buy-button, .jg-woocommerce-message .btn-group-lg > a.wc-forward, .btn-group-lg > .reset_variations, .btn-group-lg > .add_to_cart_button, .btn-group-lg > .single_add_to_cart_button, .btn-group-lg > .update-cart-button, .woocommerce-info .btn-group-lg > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group-lg > a.button {
+.btn-lg, .btn-group-lg > .btn, .wpcf7 .btn-group-lg > input[type=submit], .btn-group-lg > a.added_to_cart, .btn-group-lg > a.post-edit-link, .jp-carousel-image-exif .btn-group-lg > a.buy-button, .jg-woocommerce-message .btn-group-lg > a.wc-forward, .btn-group-lg > .reset_variations, .btn-group-lg > .add_to_cart_button, .btn-group-lg > .single_add_to_cart_button, .btn-group-lg > .update-cart-button, .woocommerce-info .btn-group-lg > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group-lg > a.button {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0.3rem;
 }
 
-.btn-sm, a.post-edit-link, .reset_variations, .add_to_cart_button, .single_add_to_cart_button, .btn-group-sm > .btn, .wpcf7 .btn-group-sm > input[type=submit], .btn-group-sm > a.post-edit-link, .jp-carousel-image-exif .btn-group-sm > a.buy-button, .jg-woocommerce-message .btn-group-sm > a.wc-forward, .btn-group-sm > .reset_variations, .btn-group-sm > .add_to_cart_button, .btn-group-sm > .single_add_to_cart_button, .btn-group-sm > .update-cart-button, .woocommerce-info .btn-group-sm > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group-sm > a.button {
+.btn-sm, a.post-edit-link, .reset_variations, .add_to_cart_button, .single_add_to_cart_button, .btn-group-sm > .btn, .wpcf7 .btn-group-sm > input[type=submit], .btn-group-sm > a.added_to_cart, .btn-group-sm > a.post-edit-link, .jp-carousel-image-exif .btn-group-sm > a.buy-button, .jg-woocommerce-message .btn-group-sm > a.wc-forward, .btn-group-sm > .reset_variations, .btn-group-sm > .add_to_cart_button, .btn-group-sm > .single_add_to_cart_button, .btn-group-sm > .update-cart-button, .woocommerce-info .btn-group-sm > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group-sm > a.button {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.2rem;
 }
 
-.btn-block, .jp-carousel-image-exif a.buy-button {
+.btn-block, a.added_to_cart, .jp-carousel-image-exif a.buy-button {
   display: block;
   width: 100%;
 }
-.btn-block + .btn-block, .jp-carousel-image-exif a.buy-button + .btn-block, .jp-carousel-image-exif .btn-block + a.buy-button, .jp-carousel-image-exif a.buy-button + a.buy-button {
+.btn-block + .btn-block, a.added_to_cart + .btn-block, .btn-block + a.added_to_cart, a.added_to_cart + a.added_to_cart, .jp-carousel-image-exif a.buy-button + .btn-block, .jp-carousel-image-exif a.buy-button + a.added_to_cart, .jp-carousel-image-exif .btn-block + a.buy-button, .jp-carousel-image-exif a.added_to_cart + a.buy-button, .jp-carousel-image-exif a.buy-button + a.buy-button {
   margin-top: 0.5rem;
 }
 
@@ -3777,9 +3778,10 @@ input[type=button].btn-block {
   display: inline-flex;
   vertical-align: middle;
 }
-.btn-group > .btn, .wpcf7 .btn-group > input[type=submit], .btn-group > a.post-edit-link, .jp-carousel-image-exif .btn-group > a.buy-button, .jg-woocommerce-message .btn-group > a.wc-forward, .btn-group > .reset_variations, .btn-group > .add_to_cart_button, .btn-group > .single_add_to_cart_button, .btn-group > .update-cart-button, .woocommerce-info .btn-group > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button,
+.btn-group > .btn, .wpcf7 .btn-group > input[type=submit], .btn-group > a.added_to_cart, .btn-group > a.post-edit-link, .jp-carousel-image-exif .btn-group > a.buy-button, .jg-woocommerce-message .btn-group > a.wc-forward, .btn-group > .reset_variations, .btn-group > .add_to_cart_button, .btn-group > .single_add_to_cart_button, .btn-group > .update-cart-button, .woocommerce-info .btn-group > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button,
 .btn-group-vertical > .btn,
 .wpcf7 .btn-group-vertical > input[type=submit],
+.btn-group-vertical > a.added_to_cart,
 .btn-group-vertical > a.post-edit-link,
 .jp-carousel-image-exif .btn-group-vertical > a.buy-button,
 .jg-woocommerce-message .btn-group-vertical > a.wc-forward,
@@ -3792,9 +3794,10 @@ input[type=button].btn-block {
   position: relative;
   flex: 1 1 auto;
 }
-.btn-group > .btn:hover, .wpcf7 .btn-group > input[type=submit]:hover, .btn-group > a.post-edit-link:hover, .jp-carousel-image-exif .btn-group > a.buy-button:hover, .jg-woocommerce-message .btn-group > a.wc-forward:hover, .btn-group > .reset_variations:hover, .btn-group > .add_to_cart_button:hover, .btn-group > .single_add_to_cart_button:hover, .btn-group > .update-cart-button:hover, .woocommerce-info .btn-group > a.button:hover, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:hover,
+.btn-group > .btn:hover, .wpcf7 .btn-group > input[type=submit]:hover, .btn-group > a.added_to_cart:hover, .btn-group > a.post-edit-link:hover, .jp-carousel-image-exif .btn-group > a.buy-button:hover, .jg-woocommerce-message .btn-group > a.wc-forward:hover, .btn-group > .reset_variations:hover, .btn-group > .add_to_cart_button:hover, .btn-group > .single_add_to_cart_button:hover, .btn-group > .update-cart-button:hover, .woocommerce-info .btn-group > a.button:hover, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:hover,
 .btn-group-vertical > .btn:hover,
 .wpcf7 .btn-group-vertical > input[type=submit]:hover,
+.btn-group-vertical > a.added_to_cart:hover,
 .btn-group-vertical > a.post-edit-link:hover,
 .jp-carousel-image-exif .btn-group-vertical > a.buy-button:hover,
 .jg-woocommerce-message .btn-group-vertical > a.wc-forward:hover,
@@ -3806,9 +3809,10 @@ input[type=button].btn-block {
 .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button:hover {
   z-index: 1;
 }
-.btn-group > .btn:focus, .wpcf7 .btn-group > input[type=submit]:focus, .btn-group > a.post-edit-link:focus, .jp-carousel-image-exif .btn-group > a.buy-button:focus, .jg-woocommerce-message .btn-group > a.wc-forward:focus, .btn-group > .reset_variations:focus, .btn-group > .add_to_cart_button:focus, .btn-group > .single_add_to_cart_button:focus, .btn-group > .update-cart-button:focus, .woocommerce-info .btn-group > a.button:focus, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:focus, .btn-group > .btn:active, .wpcf7 .btn-group > input[type=submit]:active, .btn-group > a.post-edit-link:active, .jp-carousel-image-exif .btn-group > a.buy-button:active, .jg-woocommerce-message .btn-group > a.wc-forward:active, .btn-group > .reset_variations:active, .btn-group > .add_to_cart_button:active, .btn-group > .single_add_to_cart_button:active, .btn-group > .update-cart-button:active, .woocommerce-info .btn-group > a.button:active, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:active, .btn-group > .btn.active, .wpcf7 .btn-group > input.active[type=submit], .btn-group > a.active.post-edit-link, .jp-carousel-image-exif .btn-group > a.active.buy-button, .jg-woocommerce-message .btn-group > a.active.wc-forward, .btn-group > .active.reset_variations, .btn-group > .active.add_to_cart_button, .btn-group > .active.single_add_to_cart_button, .btn-group > .active.update-cart-button, .woocommerce-info .btn-group > a.active.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.active.button,
+.btn-group > .btn:focus, .wpcf7 .btn-group > input[type=submit]:focus, .btn-group > a.added_to_cart:focus, .btn-group > a.post-edit-link:focus, .jp-carousel-image-exif .btn-group > a.buy-button:focus, .jg-woocommerce-message .btn-group > a.wc-forward:focus, .btn-group > .reset_variations:focus, .btn-group > .add_to_cart_button:focus, .btn-group > .single_add_to_cart_button:focus, .btn-group > .update-cart-button:focus, .woocommerce-info .btn-group > a.button:focus, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:focus, .btn-group > .btn:active, .wpcf7 .btn-group > input[type=submit]:active, .btn-group > a.added_to_cart:active, .btn-group > a.post-edit-link:active, .jp-carousel-image-exif .btn-group > a.buy-button:active, .jg-woocommerce-message .btn-group > a.wc-forward:active, .btn-group > .reset_variations:active, .btn-group > .add_to_cart_button:active, .btn-group > .single_add_to_cart_button:active, .btn-group > .update-cart-button:active, .woocommerce-info .btn-group > a.button:active, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:active, .btn-group > .btn.active, .wpcf7 .btn-group > input.active[type=submit], .btn-group > a.active.added_to_cart, .btn-group > a.active.post-edit-link, .jp-carousel-image-exif .btn-group > a.active.buy-button, .jg-woocommerce-message .btn-group > a.active.wc-forward, .btn-group > .active.reset_variations, .btn-group > .active.add_to_cart_button, .btn-group > .active.single_add_to_cart_button, .btn-group > .active.update-cart-button, .woocommerce-info .btn-group > a.active.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.active.button,
 .btn-group-vertical > .btn:focus,
 .wpcf7 .btn-group-vertical > input[type=submit]:focus,
+.btn-group-vertical > a.added_to_cart:focus,
 .btn-group-vertical > a.post-edit-link:focus,
 .jp-carousel-image-exif .btn-group-vertical > a.buy-button:focus,
 .jg-woocommerce-message .btn-group-vertical > a.wc-forward:focus,
@@ -3820,6 +3824,7 @@ input[type=button].btn-block {
 .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button:focus,
 .btn-group-vertical > .btn:active,
 .wpcf7 .btn-group-vertical > input[type=submit]:active,
+.btn-group-vertical > a.added_to_cart:active,
 .btn-group-vertical > a.post-edit-link:active,
 .jp-carousel-image-exif .btn-group-vertical > a.buy-button:active,
 .jg-woocommerce-message .btn-group-vertical > a.wc-forward:active,
@@ -3831,6 +3836,7 @@ input[type=button].btn-block {
 .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button:active,
 .btn-group-vertical > .btn.active,
 .wpcf7 .btn-group-vertical > input.active[type=submit],
+.btn-group-vertical > a.active.added_to_cart,
 .btn-group-vertical > a.active.post-edit-link,
 .jp-carousel-image-exif .btn-group-vertical > a.active.buy-button,
 .jg-woocommerce-message .btn-group-vertical > a.active.wc-forward,
@@ -3852,13 +3858,14 @@ input[type=button].btn-block {
   width: auto;
 }
 
-.btn-group > .btn:not(:first-child), .wpcf7 .btn-group > input[type=submit]:not(:first-child), .btn-group > a.post-edit-link:not(:first-child), .jp-carousel-image-exif .btn-group > a.buy-button:not(:first-child), .jg-woocommerce-message .btn-group > a.wc-forward:not(:first-child), .btn-group > .reset_variations:not(:first-child), .btn-group > .add_to_cart_button:not(:first-child), .btn-group > .single_add_to_cart_button:not(:first-child), .btn-group > .update-cart-button:not(:first-child), .woocommerce-info .btn-group > a.button:not(:first-child), .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:not(:first-child),
+.btn-group > .btn:not(:first-child), .wpcf7 .btn-group > input[type=submit]:not(:first-child), .btn-group > a.added_to_cart:not(:first-child), .btn-group > a.post-edit-link:not(:first-child), .jp-carousel-image-exif .btn-group > a.buy-button:not(:first-child), .jg-woocommerce-message .btn-group > a.wc-forward:not(:first-child), .btn-group > .reset_variations:not(:first-child), .btn-group > .add_to_cart_button:not(:first-child), .btn-group > .single_add_to_cart_button:not(:first-child), .btn-group > .update-cart-button:not(:first-child), .woocommerce-info .btn-group > a.button:not(:first-child), .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:not(:first-child),
 .btn-group > .btn-group:not(:first-child) {
   margin-left: -1px;
 }
-.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .wpcf7 .btn-group > input[type=submit]:not(:last-child):not(.dropdown-toggle), .btn-group > a.post-edit-link:not(:last-child):not(.dropdown-toggle), .jp-carousel-image-exif .btn-group > a.buy-button:not(:last-child):not(.dropdown-toggle), .jg-woocommerce-message .btn-group > a.wc-forward:not(:last-child):not(.dropdown-toggle), .btn-group > .reset_variations:not(:last-child):not(.dropdown-toggle), .btn-group > .add_to_cart_button:not(:last-child):not(.dropdown-toggle), .btn-group > .single_add_to_cart_button:not(:last-child):not(.dropdown-toggle), .btn-group > .update-cart-button:not(:last-child):not(.dropdown-toggle), .woocommerce-info .btn-group > a.button:not(:last-child):not(.dropdown-toggle), .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:not(:last-child):not(.dropdown-toggle),
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .wpcf7 .btn-group > input[type=submit]:not(:last-child):not(.dropdown-toggle), .btn-group > a.added_to_cart:not(:last-child):not(.dropdown-toggle), .btn-group > a.post-edit-link:not(:last-child):not(.dropdown-toggle), .jp-carousel-image-exif .btn-group > a.buy-button:not(:last-child):not(.dropdown-toggle), .jg-woocommerce-message .btn-group > a.wc-forward:not(:last-child):not(.dropdown-toggle), .btn-group > .reset_variations:not(:last-child):not(.dropdown-toggle), .btn-group > .add_to_cart_button:not(:last-child):not(.dropdown-toggle), .btn-group > .single_add_to_cart_button:not(:last-child):not(.dropdown-toggle), .btn-group > .update-cart-button:not(:last-child):not(.dropdown-toggle), .woocommerce-info .btn-group > a.button:not(:last-child):not(.dropdown-toggle), .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:not(:last-child):not(.dropdown-toggle),
 .btn-group > .btn-group:not(:last-child) > .btn,
 .wpcf7 .btn-group > .btn-group:not(:last-child) > input[type=submit],
+.btn-group > .btn-group:not(:last-child) > a.added_to_cart,
 .btn-group > .btn-group:not(:last-child) > a.post-edit-link,
 .jp-carousel-image-exif .btn-group > .btn-group:not(:last-child) > a.buy-button,
 .jg-woocommerce-message .btn-group > .btn-group:not(:last-child) > a.wc-forward,
@@ -3871,9 +3878,10 @@ input[type=button].btn-block {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.btn-group > .btn:not(:first-child), .wpcf7 .btn-group > input[type=submit]:not(:first-child), .btn-group > a.post-edit-link:not(:first-child), .jp-carousel-image-exif .btn-group > a.buy-button:not(:first-child), .jg-woocommerce-message .btn-group > a.wc-forward:not(:first-child), .btn-group > .reset_variations:not(:first-child), .btn-group > .add_to_cart_button:not(:first-child), .btn-group > .single_add_to_cart_button:not(:first-child), .btn-group > .update-cart-button:not(:first-child), .woocommerce-info .btn-group > a.button:not(:first-child), .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:not(:first-child),
+.btn-group > .btn:not(:first-child), .wpcf7 .btn-group > input[type=submit]:not(:first-child), .btn-group > a.added_to_cart:not(:first-child), .btn-group > a.post-edit-link:not(:first-child), .jp-carousel-image-exif .btn-group > a.buy-button:not(:first-child), .jg-woocommerce-message .btn-group > a.wc-forward:not(:first-child), .btn-group > .reset_variations:not(:first-child), .btn-group > .add_to_cart_button:not(:first-child), .btn-group > .single_add_to_cart_button:not(:first-child), .btn-group > .update-cart-button:not(:first-child), .woocommerce-info .btn-group > a.button:not(:first-child), .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:not(:first-child),
 .btn-group > .btn-group:not(:first-child) > .btn,
 .wpcf7 .btn-group > .btn-group:not(:first-child) > input[type=submit],
+.btn-group > .btn-group:not(:first-child) > a.added_to_cart,
 .btn-group > .btn-group:not(:first-child) > a.post-edit-link,
 .jp-carousel-image-exif .btn-group > .btn-group:not(:first-child) > a.buy-button,
 .jg-woocommerce-message .btn-group > .btn-group:not(:first-child) > a.wc-forward,
@@ -3898,12 +3906,12 @@ input[type=button].btn-block {
   margin-right: 0;
 }
 
-.btn-sm + .dropdown-toggle-split, a.post-edit-link + .dropdown-toggle-split, .reset_variations + .dropdown-toggle-split, .add_to_cart_button + .dropdown-toggle-split, .single_add_to_cart_button + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .wpcf7 .btn-group-sm > input[type=submit] + .dropdown-toggle-split, .btn-group-sm > a.post-edit-link + .dropdown-toggle-split, .jp-carousel-image-exif .btn-group-sm > a.buy-button + .dropdown-toggle-split, .jg-woocommerce-message .btn-group-sm > a.wc-forward + .dropdown-toggle-split, .btn-group-sm > .reset_variations + .dropdown-toggle-split, .btn-group-sm > .add_to_cart_button + .dropdown-toggle-split, .btn-group-sm > .single_add_to_cart_button + .dropdown-toggle-split, .btn-group-sm > .update-cart-button + .dropdown-toggle-split, .woocommerce-info .btn-group-sm > a.button + .dropdown-toggle-split, .woocommerce-notices-wrapper .woocommerce-message .btn-group-sm > a.button + .dropdown-toggle-split {
+.btn-sm + .dropdown-toggle-split, a.post-edit-link + .dropdown-toggle-split, .reset_variations + .dropdown-toggle-split, .add_to_cart_button + .dropdown-toggle-split, .single_add_to_cart_button + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .wpcf7 .btn-group-sm > input[type=submit] + .dropdown-toggle-split, .btn-group-sm > a.added_to_cart + .dropdown-toggle-split, .btn-group-sm > a.post-edit-link + .dropdown-toggle-split, .jp-carousel-image-exif .btn-group-sm > a.buy-button + .dropdown-toggle-split, .jg-woocommerce-message .btn-group-sm > a.wc-forward + .dropdown-toggle-split, .btn-group-sm > .reset_variations + .dropdown-toggle-split, .btn-group-sm > .add_to_cart_button + .dropdown-toggle-split, .btn-group-sm > .single_add_to_cart_button + .dropdown-toggle-split, .btn-group-sm > .update-cart-button + .dropdown-toggle-split, .woocommerce-info .btn-group-sm > a.button + .dropdown-toggle-split, .woocommerce-notices-wrapper .woocommerce-message .btn-group-sm > a.button + .dropdown-toggle-split {
   padding-right: 0.375rem;
   padding-left: 0.375rem;
 }
 
-.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .wpcf7 .btn-group-lg > input[type=submit] + .dropdown-toggle-split, .btn-group-lg > a.post-edit-link + .dropdown-toggle-split, .jp-carousel-image-exif .btn-group-lg > a.buy-button + .dropdown-toggle-split, .jg-woocommerce-message .btn-group-lg > a.wc-forward + .dropdown-toggle-split, .btn-group-lg > .reset_variations + .dropdown-toggle-split, .btn-group-lg > .add_to_cart_button + .dropdown-toggle-split, .btn-group-lg > .single_add_to_cart_button + .dropdown-toggle-split, .btn-group-lg > .update-cart-button + .dropdown-toggle-split, .woocommerce-info .btn-group-lg > a.button + .dropdown-toggle-split, .woocommerce-notices-wrapper .woocommerce-message .btn-group-lg > a.button + .dropdown-toggle-split {
+.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .wpcf7 .btn-group-lg > input[type=submit] + .dropdown-toggle-split, .btn-group-lg > a.added_to_cart + .dropdown-toggle-split, .btn-group-lg > a.post-edit-link + .dropdown-toggle-split, .jp-carousel-image-exif .btn-group-lg > a.buy-button + .dropdown-toggle-split, .jg-woocommerce-message .btn-group-lg > a.wc-forward + .dropdown-toggle-split, .btn-group-lg > .reset_variations + .dropdown-toggle-split, .btn-group-lg > .add_to_cart_button + .dropdown-toggle-split, .btn-group-lg > .single_add_to_cart_button + .dropdown-toggle-split, .btn-group-lg > .update-cart-button + .dropdown-toggle-split, .woocommerce-info .btn-group-lg > a.button + .dropdown-toggle-split, .woocommerce-notices-wrapper .woocommerce-message .btn-group-lg > a.button + .dropdown-toggle-split {
   padding-right: 0.75rem;
   padding-left: 0.75rem;
 }
@@ -3913,17 +3921,18 @@ input[type=button].btn-block {
   align-items: flex-start;
   justify-content: center;
 }
-.btn-group-vertical > .btn, .wpcf7 .btn-group-vertical > input[type=submit], .btn-group-vertical > a.post-edit-link, .jp-carousel-image-exif .btn-group-vertical > a.buy-button, .jg-woocommerce-message .btn-group-vertical > a.wc-forward, .btn-group-vertical > .reset_variations, .btn-group-vertical > .add_to_cart_button, .btn-group-vertical > .single_add_to_cart_button, .btn-group-vertical > .update-cart-button, .woocommerce-info .btn-group-vertical > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button,
+.btn-group-vertical > .btn, .wpcf7 .btn-group-vertical > input[type=submit], .btn-group-vertical > a.added_to_cart, .btn-group-vertical > a.post-edit-link, .jp-carousel-image-exif .btn-group-vertical > a.buy-button, .jg-woocommerce-message .btn-group-vertical > a.wc-forward, .btn-group-vertical > .reset_variations, .btn-group-vertical > .add_to_cart_button, .btn-group-vertical > .single_add_to_cart_button, .btn-group-vertical > .update-cart-button, .woocommerce-info .btn-group-vertical > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button,
 .btn-group-vertical > .btn-group {
   width: 100%;
 }
-.btn-group-vertical > .btn:not(:first-child), .wpcf7 .btn-group-vertical > input[type=submit]:not(:first-child), .btn-group-vertical > a.post-edit-link:not(:first-child), .jp-carousel-image-exif .btn-group-vertical > a.buy-button:not(:first-child), .jg-woocommerce-message .btn-group-vertical > a.wc-forward:not(:first-child), .btn-group-vertical > .reset_variations:not(:first-child), .btn-group-vertical > .add_to_cart_button:not(:first-child), .btn-group-vertical > .single_add_to_cart_button:not(:first-child), .btn-group-vertical > .update-cart-button:not(:first-child), .woocommerce-info .btn-group-vertical > a.button:not(:first-child), .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button:not(:first-child),
+.btn-group-vertical > .btn:not(:first-child), .wpcf7 .btn-group-vertical > input[type=submit]:not(:first-child), .btn-group-vertical > a.added_to_cart:not(:first-child), .btn-group-vertical > a.post-edit-link:not(:first-child), .jp-carousel-image-exif .btn-group-vertical > a.buy-button:not(:first-child), .jg-woocommerce-message .btn-group-vertical > a.wc-forward:not(:first-child), .btn-group-vertical > .reset_variations:not(:first-child), .btn-group-vertical > .add_to_cart_button:not(:first-child), .btn-group-vertical > .single_add_to_cart_button:not(:first-child), .btn-group-vertical > .update-cart-button:not(:first-child), .woocommerce-info .btn-group-vertical > a.button:not(:first-child), .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button:not(:first-child),
 .btn-group-vertical > .btn-group:not(:first-child) {
   margin-top: -1px;
 }
-.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .wpcf7 .btn-group-vertical > input[type=submit]:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > a.post-edit-link:not(:last-child):not(.dropdown-toggle), .jp-carousel-image-exif .btn-group-vertical > a.buy-button:not(:last-child):not(.dropdown-toggle), .jg-woocommerce-message .btn-group-vertical > a.wc-forward:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .reset_variations:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .add_to_cart_button:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .single_add_to_cart_button:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .update-cart-button:not(:last-child):not(.dropdown-toggle), .woocommerce-info .btn-group-vertical > a.button:not(:last-child):not(.dropdown-toggle), .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button:not(:last-child):not(.dropdown-toggle),
+.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .wpcf7 .btn-group-vertical > input[type=submit]:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > a.added_to_cart:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > a.post-edit-link:not(:last-child):not(.dropdown-toggle), .jp-carousel-image-exif .btn-group-vertical > a.buy-button:not(:last-child):not(.dropdown-toggle), .jg-woocommerce-message .btn-group-vertical > a.wc-forward:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .reset_variations:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .add_to_cart_button:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .single_add_to_cart_button:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .update-cart-button:not(:last-child):not(.dropdown-toggle), .woocommerce-info .btn-group-vertical > a.button:not(:last-child):not(.dropdown-toggle), .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button:not(:last-child):not(.dropdown-toggle),
 .btn-group-vertical > .btn-group:not(:last-child) > .btn,
 .wpcf7 .btn-group-vertical > .btn-group:not(:last-child) > input[type=submit],
+.btn-group-vertical > .btn-group:not(:last-child) > a.added_to_cart,
 .btn-group-vertical > .btn-group:not(:last-child) > a.post-edit-link,
 .jp-carousel-image-exif .btn-group-vertical > .btn-group:not(:last-child) > a.buy-button,
 .jg-woocommerce-message .btn-group-vertical > .btn-group:not(:last-child) > a.wc-forward,
@@ -3936,9 +3945,10 @@ input[type=button].btn-block {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.btn-group-vertical > .btn:not(:first-child), .wpcf7 .btn-group-vertical > input[type=submit]:not(:first-child), .btn-group-vertical > a.post-edit-link:not(:first-child), .jp-carousel-image-exif .btn-group-vertical > a.buy-button:not(:first-child), .jg-woocommerce-message .btn-group-vertical > a.wc-forward:not(:first-child), .btn-group-vertical > .reset_variations:not(:first-child), .btn-group-vertical > .add_to_cart_button:not(:first-child), .btn-group-vertical > .single_add_to_cart_button:not(:first-child), .btn-group-vertical > .update-cart-button:not(:first-child), .woocommerce-info .btn-group-vertical > a.button:not(:first-child), .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button:not(:first-child),
+.btn-group-vertical > .btn:not(:first-child), .wpcf7 .btn-group-vertical > input[type=submit]:not(:first-child), .btn-group-vertical > a.added_to_cart:not(:first-child), .btn-group-vertical > a.post-edit-link:not(:first-child), .jp-carousel-image-exif .btn-group-vertical > a.buy-button:not(:first-child), .jg-woocommerce-message .btn-group-vertical > a.wc-forward:not(:first-child), .btn-group-vertical > .reset_variations:not(:first-child), .btn-group-vertical > .add_to_cart_button:not(:first-child), .btn-group-vertical > .single_add_to_cart_button:not(:first-child), .btn-group-vertical > .update-cart-button:not(:first-child), .woocommerce-info .btn-group-vertical > a.button:not(:first-child), .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button:not(:first-child),
 .btn-group-vertical > .btn-group:not(:first-child) > .btn,
 .wpcf7 .btn-group-vertical > .btn-group:not(:first-child) > input[type=submit],
+.btn-group-vertical > .btn-group:not(:first-child) > a.added_to_cart,
 .btn-group-vertical > .btn-group:not(:first-child) > a.post-edit-link,
 .jp-carousel-image-exif .btn-group-vertical > .btn-group:not(:first-child) > a.buy-button,
 .jg-woocommerce-message .btn-group-vertical > .btn-group:not(:first-child) > a.wc-forward,
@@ -3952,9 +3962,10 @@ input[type=button].btn-block {
   border-top-right-radius: 0;
 }
 
-.btn-group-toggle > .btn, .wpcf7 .btn-group-toggle > input[type=submit], .btn-group-toggle > a.post-edit-link, .jp-carousel-image-exif .btn-group-toggle > a.buy-button, .jg-woocommerce-message .btn-group-toggle > a.wc-forward, .btn-group-toggle > .reset_variations, .btn-group-toggle > .add_to_cart_button, .btn-group-toggle > .single_add_to_cart_button, .btn-group-toggle > .update-cart-button, .woocommerce-info .btn-group-toggle > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group-toggle > a.button,
+.btn-group-toggle > .btn, .wpcf7 .btn-group-toggle > input[type=submit], .btn-group-toggle > a.added_to_cart, .btn-group-toggle > a.post-edit-link, .jp-carousel-image-exif .btn-group-toggle > a.buy-button, .jg-woocommerce-message .btn-group-toggle > a.wc-forward, .btn-group-toggle > .reset_variations, .btn-group-toggle > .add_to_cart_button, .btn-group-toggle > .single_add_to_cart_button, .btn-group-toggle > .update-cart-button, .woocommerce-info .btn-group-toggle > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group-toggle > a.button,
 .btn-group-toggle > .btn-group > .btn,
 .wpcf7 .btn-group-toggle > .btn-group > input[type=submit],
+.btn-group-toggle > .btn-group > a.added_to_cart,
 .btn-group-toggle > .btn-group > a.post-edit-link,
 .jp-carousel-image-exif .btn-group-toggle > .btn-group > a.buy-button,
 .jg-woocommerce-message .btn-group-toggle > .btn-group > a.wc-forward,
@@ -3966,9 +3977,10 @@ input[type=button].btn-block {
 .woocommerce-notices-wrapper .woocommerce-message .btn-group-toggle > .btn-group > a.button {
   margin-bottom: 0;
 }
-.btn-group-toggle > .btn input[type=radio], .wpcf7 .btn-group-toggle > input[type=submit] input[type=radio], .btn-group-toggle > a.post-edit-link input[type=radio], .jp-carousel-image-exif .btn-group-toggle > a.buy-button input[type=radio], .jg-woocommerce-message .btn-group-toggle > a.wc-forward input[type=radio], .btn-group-toggle > .reset_variations input[type=radio], .btn-group-toggle > .add_to_cart_button input[type=radio], .btn-group-toggle > .single_add_to_cart_button input[type=radio], .btn-group-toggle > .update-cart-button input[type=radio], .woocommerce-info .btn-group-toggle > a.button input[type=radio], .woocommerce-notices-wrapper .woocommerce-message .btn-group-toggle > a.button input[type=radio],
+.btn-group-toggle > .btn input[type=radio], .wpcf7 .btn-group-toggle > input[type=submit] input[type=radio], .btn-group-toggle > a.added_to_cart input[type=radio], .btn-group-toggle > a.post-edit-link input[type=radio], .jp-carousel-image-exif .btn-group-toggle > a.buy-button input[type=radio], .jg-woocommerce-message .btn-group-toggle > a.wc-forward input[type=radio], .btn-group-toggle > .reset_variations input[type=radio], .btn-group-toggle > .add_to_cart_button input[type=radio], .btn-group-toggle > .single_add_to_cart_button input[type=radio], .btn-group-toggle > .update-cart-button input[type=radio], .woocommerce-info .btn-group-toggle > a.button input[type=radio], .woocommerce-notices-wrapper .woocommerce-message .btn-group-toggle > a.button input[type=radio],
 .btn-group-toggle > .btn input[type=checkbox],
 .wpcf7 .btn-group-toggle > input[type=submit] input[type=checkbox],
+.btn-group-toggle > a.added_to_cart input[type=checkbox],
 .btn-group-toggle > a.post-edit-link input[type=checkbox],
 .jp-carousel-image-exif .btn-group-toggle > a.buy-button input[type=checkbox],
 .jg-woocommerce-message .btn-group-toggle > a.wc-forward input[type=checkbox],
@@ -4901,10 +4913,11 @@ td.value .input-group > .custom-file + select,
 .input-group-append {
   display: flex;
 }
-.input-group-prepend .btn, .input-group-prepend .wpcf7 input[type=submit], .wpcf7 .input-group-prepend input[type=submit], .input-group-prepend a.post-edit-link, .input-group-prepend .jp-carousel-image-exif a.buy-button, .jp-carousel-image-exif .input-group-prepend a.buy-button, .input-group-prepend .jg-woocommerce-message a.wc-forward, .jg-woocommerce-message .input-group-prepend a.wc-forward, .input-group-prepend .reset_variations, .input-group-prepend .add_to_cart_button, .input-group-prepend .single_add_to_cart_button, .input-group-prepend .update-cart-button, .input-group-prepend .woocommerce-info a.button, .woocommerce-info .input-group-prepend a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button,
+.input-group-prepend .btn, .input-group-prepend .wpcf7 input[type=submit], .wpcf7 .input-group-prepend input[type=submit], .input-group-prepend a.added_to_cart, .input-group-prepend a.post-edit-link, .input-group-prepend .jp-carousel-image-exif a.buy-button, .jp-carousel-image-exif .input-group-prepend a.buy-button, .input-group-prepend .jg-woocommerce-message a.wc-forward, .jg-woocommerce-message .input-group-prepend a.wc-forward, .input-group-prepend .reset_variations, .input-group-prepend .add_to_cart_button, .input-group-prepend .single_add_to_cart_button, .input-group-prepend .update-cart-button, .input-group-prepend .woocommerce-info a.button, .woocommerce-info .input-group-prepend a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button,
 .input-group-append .btn,
 .input-group-append .wpcf7 input[type=submit],
 .wpcf7 .input-group-append input[type=submit],
+.input-group-append a.added_to_cart,
 .input-group-append a.post-edit-link,
 .input-group-append .jp-carousel-image-exif a.buy-button,
 .jp-carousel-image-exif .input-group-append a.buy-button,
@@ -4921,10 +4934,11 @@ td.value .input-group > .custom-file + select,
   position: relative;
   z-index: 2;
 }
-.input-group-prepend .btn:focus, .input-group-prepend .wpcf7 input[type=submit]:focus, .wpcf7 .input-group-prepend input[type=submit]:focus, .input-group-prepend a.post-edit-link:focus, .input-group-prepend .jp-carousel-image-exif a.buy-button:focus, .jp-carousel-image-exif .input-group-prepend a.buy-button:focus, .input-group-prepend .jg-woocommerce-message a.wc-forward:focus, .jg-woocommerce-message .input-group-prepend a.wc-forward:focus, .input-group-prepend .reset_variations:focus, .input-group-prepend .add_to_cart_button:focus, .input-group-prepend .single_add_to_cart_button:focus, .input-group-prepend .update-cart-button:focus, .input-group-prepend .woocommerce-info a.button:focus, .woocommerce-info .input-group-prepend a.button:focus, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button:focus, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button:focus,
+.input-group-prepend .btn:focus, .input-group-prepend .wpcf7 input[type=submit]:focus, .wpcf7 .input-group-prepend input[type=submit]:focus, .input-group-prepend a.added_to_cart:focus, .input-group-prepend a.post-edit-link:focus, .input-group-prepend .jp-carousel-image-exif a.buy-button:focus, .jp-carousel-image-exif .input-group-prepend a.buy-button:focus, .input-group-prepend .jg-woocommerce-message a.wc-forward:focus, .jg-woocommerce-message .input-group-prepend a.wc-forward:focus, .input-group-prepend .reset_variations:focus, .input-group-prepend .add_to_cart_button:focus, .input-group-prepend .single_add_to_cart_button:focus, .input-group-prepend .update-cart-button:focus, .input-group-prepend .woocommerce-info a.button:focus, .woocommerce-info .input-group-prepend a.button:focus, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button:focus, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button:focus,
 .input-group-append .btn:focus,
 .input-group-append .wpcf7 input[type=submit]:focus,
 .wpcf7 .input-group-append input[type=submit]:focus,
+.input-group-append a.added_to_cart:focus,
 .input-group-append a.post-edit-link:focus,
 .input-group-append .jp-carousel-image-exif a.buy-button:focus,
 .jp-carousel-image-exif .input-group-append a.buy-button:focus,
@@ -4940,10 +4954,11 @@ td.value .input-group > .custom-file + select,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-append a.button:focus {
   z-index: 3;
 }
-.input-group-prepend .btn + .btn, .input-group-prepend .wpcf7 input[type=submit] + .btn, .wpcf7 .input-group-prepend input[type=submit] + .btn, .input-group-prepend .wpcf7 .btn + input[type=submit], .wpcf7 .input-group-prepend .btn + input[type=submit], .input-group-prepend .wpcf7 input[type=submit] + input[type=submit], .wpcf7 .input-group-prepend input[type=submit] + input[type=submit], .input-group-prepend a.post-edit-link + .btn, .input-group-prepend .wpcf7 a.post-edit-link + input[type=submit], .wpcf7 .input-group-prepend a.post-edit-link + input[type=submit], .input-group-prepend .btn + a.post-edit-link, .input-group-prepend .wpcf7 input[type=submit] + a.post-edit-link, .wpcf7 .input-group-prepend input[type=submit] + a.post-edit-link, .input-group-prepend a.post-edit-link + a.post-edit-link, .input-group-prepend .jp-carousel-image-exif a.buy-button + .btn, .input-group-prepend .jp-carousel-image-exif .wpcf7 a.buy-button + input[type=submit], .wpcf7 .input-group-prepend .jp-carousel-image-exif a.buy-button + input[type=submit], .input-group-prepend .jp-carousel-image-exif a.buy-button + a.post-edit-link, .jp-carousel-image-exif .input-group-prepend a.buy-button + .btn, .jp-carousel-image-exif .input-group-prepend .wpcf7 a.buy-button + input[type=submit], .wpcf7 .jp-carousel-image-exif .input-group-prepend a.buy-button + input[type=submit], .jp-carousel-image-exif .input-group-prepend a.buy-button + a.post-edit-link, .input-group-prepend .jp-carousel-image-exif .btn + a.buy-button, .input-group-prepend .jp-carousel-image-exif .wpcf7 input[type=submit] + a.buy-button, .wpcf7 .input-group-prepend .jp-carousel-image-exif input[type=submit] + a.buy-button, .input-group-prepend .jp-carousel-image-exif a.post-edit-link + a.buy-button, .jp-carousel-image-exif .input-group-prepend .btn + a.buy-button, .jp-carousel-image-exif .input-group-prepend .wpcf7 input[type=submit] + a.buy-button, .wpcf7 .jp-carousel-image-exif .input-group-prepend input[type=submit] + a.buy-button, .jp-carousel-image-exif .input-group-prepend a.post-edit-link + a.buy-button, .input-group-prepend .jp-carousel-image-exif a.buy-button + a.buy-button, .jp-carousel-image-exif .input-group-prepend a.buy-button + a.buy-button, .input-group-prepend .jg-woocommerce-message a.wc-forward + .btn, .input-group-prepend .jg-woocommerce-message .wpcf7 a.wc-forward + input[type=submit], .wpcf7 .input-group-prepend .jg-woocommerce-message a.wc-forward + input[type=submit], .input-group-prepend .jg-woocommerce-message a.wc-forward + a.post-edit-link, .input-group-prepend .jg-woocommerce-message .jp-carousel-image-exif a.wc-forward + a.buy-button, .jp-carousel-image-exif .input-group-prepend .jg-woocommerce-message a.wc-forward + a.buy-button, .jg-woocommerce-message .input-group-prepend a.wc-forward + .btn, .jg-woocommerce-message .input-group-prepend .wpcf7 a.wc-forward + input[type=submit], .wpcf7 .jg-woocommerce-message .input-group-prepend a.wc-forward + input[type=submit], .jg-woocommerce-message .input-group-prepend a.wc-forward + a.post-edit-link, .jg-woocommerce-message .input-group-prepend .jp-carousel-image-exif a.wc-forward + a.buy-button, .jp-carousel-image-exif .jg-woocommerce-message .input-group-prepend a.wc-forward + a.buy-button, .input-group-prepend .jg-woocommerce-message .btn + a.wc-forward, .input-group-prepend .jg-woocommerce-message .wpcf7 input[type=submit] + a.wc-forward, .wpcf7 .input-group-prepend .jg-woocommerce-message input[type=submit] + a.wc-forward, .input-group-prepend .jg-woocommerce-message a.post-edit-link + a.wc-forward, .input-group-prepend .jg-woocommerce-message .jp-carousel-image-exif a.buy-button + a.wc-forward, .jp-carousel-image-exif .input-group-prepend .jg-woocommerce-message a.buy-button + a.wc-forward, .jg-woocommerce-message .input-group-prepend .btn + a.wc-forward, .jg-woocommerce-message .input-group-prepend .wpcf7 input[type=submit] + a.wc-forward, .wpcf7 .jg-woocommerce-message .input-group-prepend input[type=submit] + a.wc-forward, .jg-woocommerce-message .input-group-prepend a.post-edit-link + a.wc-forward, .jg-woocommerce-message .input-group-prepend .jp-carousel-image-exif a.buy-button + a.wc-forward, .jp-carousel-image-exif .jg-woocommerce-message .input-group-prepend a.buy-button + a.wc-forward, .input-group-prepend .jg-woocommerce-message a.wc-forward + a.wc-forward, .jg-woocommerce-message .input-group-prepend a.wc-forward + a.wc-forward, .input-group-prepend .reset_variations + .btn, .input-group-prepend .wpcf7 .reset_variations + input[type=submit], .wpcf7 .input-group-prepend .reset_variations + input[type=submit], .input-group-prepend .reset_variations + a.post-edit-link, .input-group-prepend .jp-carousel-image-exif .reset_variations + a.buy-button, .jp-carousel-image-exif .input-group-prepend .reset_variations + a.buy-button, .input-group-prepend .jg-woocommerce-message .reset_variations + a.wc-forward, .jg-woocommerce-message .input-group-prepend .reset_variations + a.wc-forward, .input-group-prepend .btn + .reset_variations, .input-group-prepend .wpcf7 input[type=submit] + .reset_variations, .wpcf7 .input-group-prepend input[type=submit] + .reset_variations, .input-group-prepend a.post-edit-link + .reset_variations, .input-group-prepend .jp-carousel-image-exif a.buy-button + .reset_variations, .jp-carousel-image-exif .input-group-prepend a.buy-button + .reset_variations, .input-group-prepend .jg-woocommerce-message a.wc-forward + .reset_variations, .jg-woocommerce-message .input-group-prepend a.wc-forward + .reset_variations, .input-group-prepend .reset_variations + .reset_variations, .input-group-prepend .add_to_cart_button + .btn, .input-group-prepend .wpcf7 .add_to_cart_button + input[type=submit], .wpcf7 .input-group-prepend .add_to_cart_button + input[type=submit], .input-group-prepend .add_to_cart_button + a.post-edit-link, .input-group-prepend .jp-carousel-image-exif .add_to_cart_button + a.buy-button, .jp-carousel-image-exif .input-group-prepend .add_to_cart_button + a.buy-button, .input-group-prepend .jg-woocommerce-message .add_to_cart_button + a.wc-forward, .jg-woocommerce-message .input-group-prepend .add_to_cart_button + a.wc-forward, .input-group-prepend .add_to_cart_button + .reset_variations, .input-group-prepend .single_add_to_cart_button + .btn, .input-group-prepend .wpcf7 .single_add_to_cart_button + input[type=submit], .wpcf7 .input-group-prepend .single_add_to_cart_button + input[type=submit], .input-group-prepend .single_add_to_cart_button + a.post-edit-link, .input-group-prepend .jp-carousel-image-exif .single_add_to_cart_button + a.buy-button, .jp-carousel-image-exif .input-group-prepend .single_add_to_cart_button + a.buy-button, .input-group-prepend .jg-woocommerce-message .single_add_to_cart_button + a.wc-forward, .jg-woocommerce-message .input-group-prepend .single_add_to_cart_button + a.wc-forward, .input-group-prepend .single_add_to_cart_button + .reset_variations, .input-group-prepend .btn + .add_to_cart_button, .input-group-prepend .wpcf7 input[type=submit] + .add_to_cart_button, .wpcf7 .input-group-prepend input[type=submit] + .add_to_cart_button, .input-group-prepend a.post-edit-link + .add_to_cart_button, .input-group-prepend .jp-carousel-image-exif a.buy-button + .add_to_cart_button, .jp-carousel-image-exif .input-group-prepend a.buy-button + .add_to_cart_button, .input-group-prepend .jg-woocommerce-message a.wc-forward + .add_to_cart_button, .jg-woocommerce-message .input-group-prepend a.wc-forward + .add_to_cart_button, .input-group-prepend .reset_variations + .add_to_cart_button, .input-group-prepend .btn + .single_add_to_cart_button, .input-group-prepend .wpcf7 input[type=submit] + .single_add_to_cart_button, .wpcf7 .input-group-prepend input[type=submit] + .single_add_to_cart_button, .input-group-prepend a.post-edit-link + .single_add_to_cart_button, .input-group-prepend .jp-carousel-image-exif a.buy-button + .single_add_to_cart_button, .jp-carousel-image-exif .input-group-prepend a.buy-button + .single_add_to_cart_button, .input-group-prepend .jg-woocommerce-message a.wc-forward + .single_add_to_cart_button, .jg-woocommerce-message .input-group-prepend a.wc-forward + .single_add_to_cart_button, .input-group-prepend .reset_variations + .single_add_to_cart_button, .input-group-prepend .add_to_cart_button + .add_to_cart_button, .input-group-prepend .single_add_to_cart_button + .add_to_cart_button, .input-group-prepend .add_to_cart_button + .single_add_to_cart_button, .input-group-prepend .single_add_to_cart_button + .single_add_to_cart_button, .input-group-prepend .update-cart-button + .btn, .input-group-prepend .wpcf7 .update-cart-button + input[type=submit], .wpcf7 .input-group-prepend .update-cart-button + input[type=submit], .input-group-prepend .update-cart-button + a.post-edit-link, .input-group-prepend .jp-carousel-image-exif .update-cart-button + a.buy-button, .jp-carousel-image-exif .input-group-prepend .update-cart-button + a.buy-button, .input-group-prepend .jg-woocommerce-message .update-cart-button + a.wc-forward, .jg-woocommerce-message .input-group-prepend .update-cart-button + a.wc-forward, .input-group-prepend .update-cart-button + .reset_variations, .input-group-prepend .update-cart-button + .add_to_cart_button, .input-group-prepend .update-cart-button + .single_add_to_cart_button, .input-group-prepend .btn + .update-cart-button, .input-group-prepend .wpcf7 input[type=submit] + .update-cart-button, .wpcf7 .input-group-prepend input[type=submit] + .update-cart-button, .input-group-prepend a.post-edit-link + .update-cart-button, .input-group-prepend .jp-carousel-image-exif a.buy-button + .update-cart-button, .jp-carousel-image-exif .input-group-prepend a.buy-button + .update-cart-button, .input-group-prepend .jg-woocommerce-message a.wc-forward + .update-cart-button, .jg-woocommerce-message .input-group-prepend a.wc-forward + .update-cart-button, .input-group-prepend .reset_variations + .update-cart-button, .input-group-prepend .add_to_cart_button + .update-cart-button, .input-group-prepend .single_add_to_cart_button + .update-cart-button, .input-group-prepend .update-cart-button + .update-cart-button, .input-group-prepend .woocommerce-info a.button + .btn, .input-group-prepend .woocommerce-info .wpcf7 a.button + input[type=submit], .wpcf7 .input-group-prepend .woocommerce-info a.button + input[type=submit], .input-group-prepend .woocommerce-info a.button + a.post-edit-link, .input-group-prepend .woocommerce-info .jp-carousel-image-exif a.button + a.buy-button, .jp-carousel-image-exif .input-group-prepend .woocommerce-info a.button + a.buy-button, .input-group-prepend .woocommerce-info .jg-woocommerce-message a.button + a.wc-forward, .jg-woocommerce-message .input-group-prepend .woocommerce-info a.button + a.wc-forward, .input-group-prepend .woocommerce-info a.button + .reset_variations, .input-group-prepend .woocommerce-info a.button + .add_to_cart_button, .input-group-prepend .woocommerce-info a.button + .single_add_to_cart_button, .input-group-prepend .woocommerce-info a.button + .update-cart-button, .woocommerce-info .input-group-prepend a.button + .btn, .woocommerce-info .input-group-prepend .wpcf7 a.button + input[type=submit], .wpcf7 .woocommerce-info .input-group-prepend a.button + input[type=submit], .woocommerce-info .input-group-prepend a.button + a.post-edit-link, .woocommerce-info .input-group-prepend .jp-carousel-image-exif a.button + a.buy-button, .jp-carousel-image-exif .woocommerce-info .input-group-prepend a.button + a.buy-button, .woocommerce-info .input-group-prepend .jg-woocommerce-message a.button + a.wc-forward, .jg-woocommerce-message .woocommerce-info .input-group-prepend a.button + a.wc-forward, .woocommerce-info .input-group-prepend a.button + .reset_variations, .woocommerce-info .input-group-prepend a.button + .add_to_cart_button, .woocommerce-info .input-group-prepend a.button + .single_add_to_cart_button, .woocommerce-info .input-group-prepend a.button + .update-cart-button, .input-group-prepend .woocommerce-info .btn + a.button, .input-group-prepend .woocommerce-info .wpcf7 input[type=submit] + a.button, .wpcf7 .input-group-prepend .woocommerce-info input[type=submit] + a.button, .input-group-prepend .woocommerce-info a.post-edit-link + a.button, .input-group-prepend .woocommerce-info .jp-carousel-image-exif a.buy-button + a.button, .jp-carousel-image-exif .input-group-prepend .woocommerce-info a.buy-button + a.button, .input-group-prepend .woocommerce-info .jg-woocommerce-message a.wc-forward + a.button, .jg-woocommerce-message .input-group-prepend .woocommerce-info a.wc-forward + a.button, .input-group-prepend .woocommerce-info .reset_variations + a.button, .input-group-prepend .woocommerce-info .add_to_cart_button + a.button, .input-group-prepend .woocommerce-info .single_add_to_cart_button + a.button, .input-group-prepend .woocommerce-info .update-cart-button + a.button, .woocommerce-info .input-group-prepend .btn + a.button, .woocommerce-info .input-group-prepend .wpcf7 input[type=submit] + a.button, .wpcf7 .woocommerce-info .input-group-prepend input[type=submit] + a.button, .woocommerce-info .input-group-prepend a.post-edit-link + a.button, .woocommerce-info .input-group-prepend .jp-carousel-image-exif a.buy-button + a.button, .jp-carousel-image-exif .woocommerce-info .input-group-prepend a.buy-button + a.button, .woocommerce-info .input-group-prepend .jg-woocommerce-message a.wc-forward + a.button, .jg-woocommerce-message .woocommerce-info .input-group-prepend a.wc-forward + a.button, .woocommerce-info .input-group-prepend .reset_variations + a.button, .woocommerce-info .input-group-prepend .add_to_cart_button + a.button, .woocommerce-info .input-group-prepend .single_add_to_cart_button + a.button, .woocommerce-info .input-group-prepend .update-cart-button + a.button, .input-group-prepend .woocommerce-info a.button + a.button, .woocommerce-info .input-group-prepend a.button + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + .btn, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .wpcf7 a.button + input[type=submit], .wpcf7 .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + input[type=submit], .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + a.post-edit-link, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .jp-carousel-image-exif a.button + a.buy-button, .jp-carousel-image-exif .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + a.buy-button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .jg-woocommerce-message a.button + a.wc-forward, .jg-woocommerce-message .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + a.wc-forward, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + .reset_variations, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + .add_to_cart_button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + .single_add_to_cart_button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + .update-cart-button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + .btn, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .wpcf7 a.button + input[type=submit], .wpcf7 .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + input[type=submit], .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + a.post-edit-link, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .jp-carousel-image-exif a.button + a.buy-button, .jp-carousel-image-exif .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + a.buy-button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .jg-woocommerce-message a.button + a.wc-forward, .jg-woocommerce-message .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + a.wc-forward, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + .reset_variations, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + .add_to_cart_button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + .single_add_to_cart_button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + .update-cart-button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .btn + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .wpcf7 input[type=submit] + a.button, .wpcf7 .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message input[type=submit] + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.post-edit-link + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .jp-carousel-image-exif a.buy-button + a.button, .jp-carousel-image-exif .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.buy-button + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .jg-woocommerce-message a.wc-forward + a.button, .jg-woocommerce-message .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.wc-forward + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .reset_variations + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .add_to_cart_button + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .single_add_to_cart_button + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .update-cart-button + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .btn + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .wpcf7 input[type=submit] + a.button, .wpcf7 .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend input[type=submit] + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.post-edit-link + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .jp-carousel-image-exif a.buy-button + a.button, .jp-carousel-image-exif .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.buy-button + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .jg-woocommerce-message a.wc-forward + a.button, .jg-woocommerce-message .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.wc-forward + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .reset_variations + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .add_to_cart_button + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .single_add_to_cart_button + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .update-cart-button + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + a.button,
+.input-group-prepend .btn + .btn, .input-group-prepend .wpcf7 input[type=submit] + .btn, .wpcf7 .input-group-prepend input[type=submit] + .btn, .input-group-prepend .wpcf7 .btn + input[type=submit], .wpcf7 .input-group-prepend .btn + input[type=submit], .input-group-prepend .wpcf7 input[type=submit] + input[type=submit], .wpcf7 .input-group-prepend input[type=submit] + input[type=submit], .input-group-prepend a.added_to_cart + .btn, .input-group-prepend .wpcf7 a.added_to_cart + input[type=submit], .wpcf7 .input-group-prepend a.added_to_cart + input[type=submit], .input-group-prepend .btn + a.added_to_cart, .input-group-prepend .wpcf7 input[type=submit] + a.added_to_cart, .wpcf7 .input-group-prepend input[type=submit] + a.added_to_cart, .input-group-prepend a.added_to_cart + a.added_to_cart, .input-group-prepend a.post-edit-link + .btn, .input-group-prepend .wpcf7 a.post-edit-link + input[type=submit], .wpcf7 .input-group-prepend a.post-edit-link + input[type=submit], .input-group-prepend a.post-edit-link + a.added_to_cart, .input-group-prepend .btn + a.post-edit-link, .input-group-prepend .wpcf7 input[type=submit] + a.post-edit-link, .wpcf7 .input-group-prepend input[type=submit] + a.post-edit-link, .input-group-prepend a.added_to_cart + a.post-edit-link, .input-group-prepend a.post-edit-link + a.post-edit-link, .input-group-prepend .jp-carousel-image-exif a.buy-button + .btn, .input-group-prepend .jp-carousel-image-exif .wpcf7 a.buy-button + input[type=submit], .wpcf7 .input-group-prepend .jp-carousel-image-exif a.buy-button + input[type=submit], .input-group-prepend .jp-carousel-image-exif a.buy-button + a.added_to_cart, .input-group-prepend .jp-carousel-image-exif a.buy-button + a.post-edit-link, .jp-carousel-image-exif .input-group-prepend a.buy-button + .btn, .jp-carousel-image-exif .input-group-prepend .wpcf7 a.buy-button + input[type=submit], .wpcf7 .jp-carousel-image-exif .input-group-prepend a.buy-button + input[type=submit], .jp-carousel-image-exif .input-group-prepend a.buy-button + a.added_to_cart, .jp-carousel-image-exif .input-group-prepend a.buy-button + a.post-edit-link, .input-group-prepend .jp-carousel-image-exif .btn + a.buy-button, .input-group-prepend .jp-carousel-image-exif .wpcf7 input[type=submit] + a.buy-button, .wpcf7 .input-group-prepend .jp-carousel-image-exif input[type=submit] + a.buy-button, .input-group-prepend .jp-carousel-image-exif a.added_to_cart + a.buy-button, .input-group-prepend .jp-carousel-image-exif a.post-edit-link + a.buy-button, .jp-carousel-image-exif .input-group-prepend .btn + a.buy-button, .jp-carousel-image-exif .input-group-prepend .wpcf7 input[type=submit] + a.buy-button, .wpcf7 .jp-carousel-image-exif .input-group-prepend input[type=submit] + a.buy-button, .jp-carousel-image-exif .input-group-prepend a.added_to_cart + a.buy-button, .jp-carousel-image-exif .input-group-prepend a.post-edit-link + a.buy-button, .input-group-prepend .jp-carousel-image-exif a.buy-button + a.buy-button, .jp-carousel-image-exif .input-group-prepend a.buy-button + a.buy-button, .input-group-prepend .jg-woocommerce-message a.wc-forward + .btn, .input-group-prepend .jg-woocommerce-message .wpcf7 a.wc-forward + input[type=submit], .wpcf7 .input-group-prepend .jg-woocommerce-message a.wc-forward + input[type=submit], .input-group-prepend .jg-woocommerce-message a.wc-forward + a.added_to_cart, .input-group-prepend .jg-woocommerce-message a.wc-forward + a.post-edit-link, .input-group-prepend .jg-woocommerce-message .jp-carousel-image-exif a.wc-forward + a.buy-button, .jp-carousel-image-exif .input-group-prepend .jg-woocommerce-message a.wc-forward + a.buy-button, .jg-woocommerce-message .input-group-prepend a.wc-forward + .btn, .jg-woocommerce-message .input-group-prepend .wpcf7 a.wc-forward + input[type=submit], .wpcf7 .jg-woocommerce-message .input-group-prepend a.wc-forward + input[type=submit], .jg-woocommerce-message .input-group-prepend a.wc-forward + a.added_to_cart, .jg-woocommerce-message .input-group-prepend a.wc-forward + a.post-edit-link, .jg-woocommerce-message .input-group-prepend .jp-carousel-image-exif a.wc-forward + a.buy-button, .jp-carousel-image-exif .jg-woocommerce-message .input-group-prepend a.wc-forward + a.buy-button, .input-group-prepend .jg-woocommerce-message .btn + a.wc-forward, .input-group-prepend .jg-woocommerce-message .wpcf7 input[type=submit] + a.wc-forward, .wpcf7 .input-group-prepend .jg-woocommerce-message input[type=submit] + a.wc-forward, .input-group-prepend .jg-woocommerce-message a.added_to_cart + a.wc-forward, .input-group-prepend .jg-woocommerce-message a.post-edit-link + a.wc-forward, .input-group-prepend .jg-woocommerce-message .jp-carousel-image-exif a.buy-button + a.wc-forward, .jp-carousel-image-exif .input-group-prepend .jg-woocommerce-message a.buy-button + a.wc-forward, .jg-woocommerce-message .input-group-prepend .btn + a.wc-forward, .jg-woocommerce-message .input-group-prepend .wpcf7 input[type=submit] + a.wc-forward, .wpcf7 .jg-woocommerce-message .input-group-prepend input[type=submit] + a.wc-forward, .jg-woocommerce-message .input-group-prepend a.added_to_cart + a.wc-forward, .jg-woocommerce-message .input-group-prepend a.post-edit-link + a.wc-forward, .jg-woocommerce-message .input-group-prepend .jp-carousel-image-exif a.buy-button + a.wc-forward, .jp-carousel-image-exif .jg-woocommerce-message .input-group-prepend a.buy-button + a.wc-forward, .input-group-prepend .jg-woocommerce-message a.wc-forward + a.wc-forward, .jg-woocommerce-message .input-group-prepend a.wc-forward + a.wc-forward, .input-group-prepend .reset_variations + .btn, .input-group-prepend .wpcf7 .reset_variations + input[type=submit], .wpcf7 .input-group-prepend .reset_variations + input[type=submit], .input-group-prepend .reset_variations + a.added_to_cart, .input-group-prepend .reset_variations + a.post-edit-link, .input-group-prepend .jp-carousel-image-exif .reset_variations + a.buy-button, .jp-carousel-image-exif .input-group-prepend .reset_variations + a.buy-button, .input-group-prepend .jg-woocommerce-message .reset_variations + a.wc-forward, .jg-woocommerce-message .input-group-prepend .reset_variations + a.wc-forward, .input-group-prepend .btn + .reset_variations, .input-group-prepend .wpcf7 input[type=submit] + .reset_variations, .wpcf7 .input-group-prepend input[type=submit] + .reset_variations, .input-group-prepend a.added_to_cart + .reset_variations, .input-group-prepend a.post-edit-link + .reset_variations, .input-group-prepend .jp-carousel-image-exif a.buy-button + .reset_variations, .jp-carousel-image-exif .input-group-prepend a.buy-button + .reset_variations, .input-group-prepend .jg-woocommerce-message a.wc-forward + .reset_variations, .jg-woocommerce-message .input-group-prepend a.wc-forward + .reset_variations, .input-group-prepend .reset_variations + .reset_variations, .input-group-prepend .add_to_cart_button + .btn, .input-group-prepend .wpcf7 .add_to_cart_button + input[type=submit], .wpcf7 .input-group-prepend .add_to_cart_button + input[type=submit], .input-group-prepend .add_to_cart_button + a.added_to_cart, .input-group-prepend .add_to_cart_button + a.post-edit-link, .input-group-prepend .jp-carousel-image-exif .add_to_cart_button + a.buy-button, .jp-carousel-image-exif .input-group-prepend .add_to_cart_button + a.buy-button, .input-group-prepend .jg-woocommerce-message .add_to_cart_button + a.wc-forward, .jg-woocommerce-message .input-group-prepend .add_to_cart_button + a.wc-forward, .input-group-prepend .add_to_cart_button + .reset_variations, .input-group-prepend .single_add_to_cart_button + .btn, .input-group-prepend .wpcf7 .single_add_to_cart_button + input[type=submit], .wpcf7 .input-group-prepend .single_add_to_cart_button + input[type=submit], .input-group-prepend .single_add_to_cart_button + a.added_to_cart, .input-group-prepend .single_add_to_cart_button + a.post-edit-link, .input-group-prepend .jp-carousel-image-exif .single_add_to_cart_button + a.buy-button, .jp-carousel-image-exif .input-group-prepend .single_add_to_cart_button + a.buy-button, .input-group-prepend .jg-woocommerce-message .single_add_to_cart_button + a.wc-forward, .jg-woocommerce-message .input-group-prepend .single_add_to_cart_button + a.wc-forward, .input-group-prepend .single_add_to_cart_button + .reset_variations, .input-group-prepend .btn + .add_to_cart_button, .input-group-prepend .wpcf7 input[type=submit] + .add_to_cart_button, .wpcf7 .input-group-prepend input[type=submit] + .add_to_cart_button, .input-group-prepend a.added_to_cart + .add_to_cart_button, .input-group-prepend a.post-edit-link + .add_to_cart_button, .input-group-prepend .jp-carousel-image-exif a.buy-button + .add_to_cart_button, .jp-carousel-image-exif .input-group-prepend a.buy-button + .add_to_cart_button, .input-group-prepend .jg-woocommerce-message a.wc-forward + .add_to_cart_button, .jg-woocommerce-message .input-group-prepend a.wc-forward + .add_to_cart_button, .input-group-prepend .reset_variations + .add_to_cart_button, .input-group-prepend .btn + .single_add_to_cart_button, .input-group-prepend .wpcf7 input[type=submit] + .single_add_to_cart_button, .wpcf7 .input-group-prepend input[type=submit] + .single_add_to_cart_button, .input-group-prepend a.added_to_cart + .single_add_to_cart_button, .input-group-prepend a.post-edit-link + .single_add_to_cart_button, .input-group-prepend .jp-carousel-image-exif a.buy-button + .single_add_to_cart_button, .jp-carousel-image-exif .input-group-prepend a.buy-button + .single_add_to_cart_button, .input-group-prepend .jg-woocommerce-message a.wc-forward + .single_add_to_cart_button, .jg-woocommerce-message .input-group-prepend a.wc-forward + .single_add_to_cart_button, .input-group-prepend .reset_variations + .single_add_to_cart_button, .input-group-prepend .add_to_cart_button + .add_to_cart_button, .input-group-prepend .single_add_to_cart_button + .add_to_cart_button, .input-group-prepend .add_to_cart_button + .single_add_to_cart_button, .input-group-prepend .single_add_to_cart_button + .single_add_to_cart_button, .input-group-prepend .update-cart-button + .btn, .input-group-prepend .wpcf7 .update-cart-button + input[type=submit], .wpcf7 .input-group-prepend .update-cart-button + input[type=submit], .input-group-prepend .update-cart-button + a.added_to_cart, .input-group-prepend .update-cart-button + a.post-edit-link, .input-group-prepend .jp-carousel-image-exif .update-cart-button + a.buy-button, .jp-carousel-image-exif .input-group-prepend .update-cart-button + a.buy-button, .input-group-prepend .jg-woocommerce-message .update-cart-button + a.wc-forward, .jg-woocommerce-message .input-group-prepend .update-cart-button + a.wc-forward, .input-group-prepend .update-cart-button + .reset_variations, .input-group-prepend .update-cart-button + .add_to_cart_button, .input-group-prepend .update-cart-button + .single_add_to_cart_button, .input-group-prepend .btn + .update-cart-button, .input-group-prepend .wpcf7 input[type=submit] + .update-cart-button, .wpcf7 .input-group-prepend input[type=submit] + .update-cart-button, .input-group-prepend a.added_to_cart + .update-cart-button, .input-group-prepend a.post-edit-link + .update-cart-button, .input-group-prepend .jp-carousel-image-exif a.buy-button + .update-cart-button, .jp-carousel-image-exif .input-group-prepend a.buy-button + .update-cart-button, .input-group-prepend .jg-woocommerce-message a.wc-forward + .update-cart-button, .jg-woocommerce-message .input-group-prepend a.wc-forward + .update-cart-button, .input-group-prepend .reset_variations + .update-cart-button, .input-group-prepend .add_to_cart_button + .update-cart-button, .input-group-prepend .single_add_to_cart_button + .update-cart-button, .input-group-prepend .update-cart-button + .update-cart-button, .input-group-prepend .woocommerce-info a.button + .btn, .input-group-prepend .woocommerce-info .wpcf7 a.button + input[type=submit], .wpcf7 .input-group-prepend .woocommerce-info a.button + input[type=submit], .input-group-prepend .woocommerce-info a.button + a.added_to_cart, .input-group-prepend .woocommerce-info a.button + a.post-edit-link, .input-group-prepend .woocommerce-info .jp-carousel-image-exif a.button + a.buy-button, .jp-carousel-image-exif .input-group-prepend .woocommerce-info a.button + a.buy-button, .input-group-prepend .woocommerce-info .jg-woocommerce-message a.button + a.wc-forward, .jg-woocommerce-message .input-group-prepend .woocommerce-info a.button + a.wc-forward, .input-group-prepend .woocommerce-info a.button + .reset_variations, .input-group-prepend .woocommerce-info a.button + .add_to_cart_button, .input-group-prepend .woocommerce-info a.button + .single_add_to_cart_button, .input-group-prepend .woocommerce-info a.button + .update-cart-button, .woocommerce-info .input-group-prepend a.button + .btn, .woocommerce-info .input-group-prepend .wpcf7 a.button + input[type=submit], .wpcf7 .woocommerce-info .input-group-prepend a.button + input[type=submit], .woocommerce-info .input-group-prepend a.button + a.added_to_cart, .woocommerce-info .input-group-prepend a.button + a.post-edit-link, .woocommerce-info .input-group-prepend .jp-carousel-image-exif a.button + a.buy-button, .jp-carousel-image-exif .woocommerce-info .input-group-prepend a.button + a.buy-button, .woocommerce-info .input-group-prepend .jg-woocommerce-message a.button + a.wc-forward, .jg-woocommerce-message .woocommerce-info .input-group-prepend a.button + a.wc-forward, .woocommerce-info .input-group-prepend a.button + .reset_variations, .woocommerce-info .input-group-prepend a.button + .add_to_cart_button, .woocommerce-info .input-group-prepend a.button + .single_add_to_cart_button, .woocommerce-info .input-group-prepend a.button + .update-cart-button, .input-group-prepend .woocommerce-info .btn + a.button, .input-group-prepend .woocommerce-info .wpcf7 input[type=submit] + a.button, .wpcf7 .input-group-prepend .woocommerce-info input[type=submit] + a.button, .input-group-prepend .woocommerce-info a.added_to_cart + a.button, .input-group-prepend .woocommerce-info a.post-edit-link + a.button, .input-group-prepend .woocommerce-info .jp-carousel-image-exif a.buy-button + a.button, .jp-carousel-image-exif .input-group-prepend .woocommerce-info a.buy-button + a.button, .input-group-prepend .woocommerce-info .jg-woocommerce-message a.wc-forward + a.button, .jg-woocommerce-message .input-group-prepend .woocommerce-info a.wc-forward + a.button, .input-group-prepend .woocommerce-info .reset_variations + a.button, .input-group-prepend .woocommerce-info .add_to_cart_button + a.button, .input-group-prepend .woocommerce-info .single_add_to_cart_button + a.button, .input-group-prepend .woocommerce-info .update-cart-button + a.button, .woocommerce-info .input-group-prepend .btn + a.button, .woocommerce-info .input-group-prepend .wpcf7 input[type=submit] + a.button, .wpcf7 .woocommerce-info .input-group-prepend input[type=submit] + a.button, .woocommerce-info .input-group-prepend a.added_to_cart + a.button, .woocommerce-info .input-group-prepend a.post-edit-link + a.button, .woocommerce-info .input-group-prepend .jp-carousel-image-exif a.buy-button + a.button, .jp-carousel-image-exif .woocommerce-info .input-group-prepend a.buy-button + a.button, .woocommerce-info .input-group-prepend .jg-woocommerce-message a.wc-forward + a.button, .jg-woocommerce-message .woocommerce-info .input-group-prepend a.wc-forward + a.button, .woocommerce-info .input-group-prepend .reset_variations + a.button, .woocommerce-info .input-group-prepend .add_to_cart_button + a.button, .woocommerce-info .input-group-prepend .single_add_to_cart_button + a.button, .woocommerce-info .input-group-prepend .update-cart-button + a.button, .input-group-prepend .woocommerce-info a.button + a.button, .woocommerce-info .input-group-prepend a.button + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + .btn, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .wpcf7 a.button + input[type=submit], .wpcf7 .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + input[type=submit], .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + a.added_to_cart, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + a.post-edit-link, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .jp-carousel-image-exif a.button + a.buy-button, .jp-carousel-image-exif .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + a.buy-button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .jg-woocommerce-message a.button + a.wc-forward, .jg-woocommerce-message .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + a.wc-forward, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + .reset_variations, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + .add_to_cart_button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + .single_add_to_cart_button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + .update-cart-button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + .btn, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .wpcf7 a.button + input[type=submit], .wpcf7 .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + input[type=submit], .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + a.added_to_cart, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + a.post-edit-link, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .jp-carousel-image-exif a.button + a.buy-button, .jp-carousel-image-exif .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + a.buy-button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .jg-woocommerce-message a.button + a.wc-forward, .jg-woocommerce-message .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + a.wc-forward, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + .reset_variations, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + .add_to_cart_button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + .single_add_to_cart_button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + .update-cart-button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .btn + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .wpcf7 input[type=submit] + a.button, .wpcf7 .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message input[type=submit] + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.added_to_cart + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.post-edit-link + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .jp-carousel-image-exif a.buy-button + a.button, .jp-carousel-image-exif .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.buy-button + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .jg-woocommerce-message a.wc-forward + a.button, .jg-woocommerce-message .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.wc-forward + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .reset_variations + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .add_to_cart_button + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .single_add_to_cart_button + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .update-cart-button + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .btn + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .wpcf7 input[type=submit] + a.button, .wpcf7 .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend input[type=submit] + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.added_to_cart + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.post-edit-link + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .jp-carousel-image-exif a.buy-button + a.button, .jp-carousel-image-exif .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.buy-button + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .jg-woocommerce-message a.wc-forward + a.button, .jg-woocommerce-message .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.wc-forward + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .reset_variations + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .add_to_cart_button + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .single_add_to_cart_button + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .update-cart-button + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + a.button,
 .input-group-prepend .btn + .input-group-text,
 .input-group-prepend .wpcf7 input[type=submit] + .input-group-text,
 .wpcf7 .input-group-prepend input[type=submit] + .input-group-text,
+.input-group-prepend a.added_to_cart + .input-group-text,
 .input-group-prepend a.post-edit-link + .input-group-text,
 .input-group-prepend .jp-carousel-image-exif a.buy-button + .input-group-text,
 .jp-carousel-image-exif .input-group-prepend a.buy-button + .input-group-text,
@@ -4961,6 +4976,7 @@ td.value .input-group > .custom-file + select,
 .input-group-prepend .input-group-text + .btn,
 .input-group-prepend .wpcf7 .input-group-text + input[type=submit],
 .wpcf7 .input-group-prepend .input-group-text + input[type=submit],
+.input-group-prepend .input-group-text + a.added_to_cart,
 .input-group-prepend .input-group-text + a.post-edit-link,
 .input-group-prepend .jp-carousel-image-exif .input-group-text + a.buy-button,
 .jp-carousel-image-exif .input-group-prepend .input-group-text + a.buy-button,
@@ -4981,52 +4997,69 @@ td.value .input-group > .custom-file + select,
 .wpcf7 .input-group-append .btn + input[type=submit],
 .input-group-append .wpcf7 input[type=submit] + input[type=submit],
 .wpcf7 .input-group-append input[type=submit] + input[type=submit],
+.input-group-append a.added_to_cart + .btn,
+.input-group-append .wpcf7 a.added_to_cart + input[type=submit],
+.wpcf7 .input-group-append a.added_to_cart + input[type=submit],
+.input-group-append .btn + a.added_to_cart,
+.input-group-append .wpcf7 input[type=submit] + a.added_to_cart,
+.wpcf7 .input-group-append input[type=submit] + a.added_to_cart,
+.input-group-append a.added_to_cart + a.added_to_cart,
 .input-group-append a.post-edit-link + .btn,
 .input-group-append .wpcf7 a.post-edit-link + input[type=submit],
 .wpcf7 .input-group-append a.post-edit-link + input[type=submit],
+.input-group-append a.post-edit-link + a.added_to_cart,
 .input-group-append .btn + a.post-edit-link,
 .input-group-append .wpcf7 input[type=submit] + a.post-edit-link,
 .wpcf7 .input-group-append input[type=submit] + a.post-edit-link,
+.input-group-append a.added_to_cart + a.post-edit-link,
 .input-group-append a.post-edit-link + a.post-edit-link,
 .input-group-append .jp-carousel-image-exif a.buy-button + .btn,
 .input-group-append .jp-carousel-image-exif .wpcf7 a.buy-button + input[type=submit],
 .wpcf7 .input-group-append .jp-carousel-image-exif a.buy-button + input[type=submit],
+.input-group-append .jp-carousel-image-exif a.buy-button + a.added_to_cart,
 .input-group-append .jp-carousel-image-exif a.buy-button + a.post-edit-link,
 .jp-carousel-image-exif .input-group-append a.buy-button + .btn,
 .jp-carousel-image-exif .input-group-append .wpcf7 a.buy-button + input[type=submit],
 .wpcf7 .jp-carousel-image-exif .input-group-append a.buy-button + input[type=submit],
+.jp-carousel-image-exif .input-group-append a.buy-button + a.added_to_cart,
 .jp-carousel-image-exif .input-group-append a.buy-button + a.post-edit-link,
 .input-group-append .jp-carousel-image-exif .btn + a.buy-button,
 .input-group-append .jp-carousel-image-exif .wpcf7 input[type=submit] + a.buy-button,
 .wpcf7 .input-group-append .jp-carousel-image-exif input[type=submit] + a.buy-button,
+.input-group-append .jp-carousel-image-exif a.added_to_cart + a.buy-button,
 .input-group-append .jp-carousel-image-exif a.post-edit-link + a.buy-button,
 .jp-carousel-image-exif .input-group-append .btn + a.buy-button,
 .jp-carousel-image-exif .input-group-append .wpcf7 input[type=submit] + a.buy-button,
 .wpcf7 .jp-carousel-image-exif .input-group-append input[type=submit] + a.buy-button,
+.jp-carousel-image-exif .input-group-append a.added_to_cart + a.buy-button,
 .jp-carousel-image-exif .input-group-append a.post-edit-link + a.buy-button,
 .input-group-append .jp-carousel-image-exif a.buy-button + a.buy-button,
 .jp-carousel-image-exif .input-group-append a.buy-button + a.buy-button,
 .input-group-append .jg-woocommerce-message a.wc-forward + .btn,
 .input-group-append .jg-woocommerce-message .wpcf7 a.wc-forward + input[type=submit],
 .wpcf7 .input-group-append .jg-woocommerce-message a.wc-forward + input[type=submit],
+.input-group-append .jg-woocommerce-message a.wc-forward + a.added_to_cart,
 .input-group-append .jg-woocommerce-message a.wc-forward + a.post-edit-link,
 .input-group-append .jg-woocommerce-message .jp-carousel-image-exif a.wc-forward + a.buy-button,
 .jp-carousel-image-exif .input-group-append .jg-woocommerce-message a.wc-forward + a.buy-button,
 .jg-woocommerce-message .input-group-append a.wc-forward + .btn,
 .jg-woocommerce-message .input-group-append .wpcf7 a.wc-forward + input[type=submit],
 .wpcf7 .jg-woocommerce-message .input-group-append a.wc-forward + input[type=submit],
+.jg-woocommerce-message .input-group-append a.wc-forward + a.added_to_cart,
 .jg-woocommerce-message .input-group-append a.wc-forward + a.post-edit-link,
 .jg-woocommerce-message .input-group-append .jp-carousel-image-exif a.wc-forward + a.buy-button,
 .jp-carousel-image-exif .jg-woocommerce-message .input-group-append a.wc-forward + a.buy-button,
 .input-group-append .jg-woocommerce-message .btn + a.wc-forward,
 .input-group-append .jg-woocommerce-message .wpcf7 input[type=submit] + a.wc-forward,
 .wpcf7 .input-group-append .jg-woocommerce-message input[type=submit] + a.wc-forward,
+.input-group-append .jg-woocommerce-message a.added_to_cart + a.wc-forward,
 .input-group-append .jg-woocommerce-message a.post-edit-link + a.wc-forward,
 .input-group-append .jg-woocommerce-message .jp-carousel-image-exif a.buy-button + a.wc-forward,
 .jp-carousel-image-exif .input-group-append .jg-woocommerce-message a.buy-button + a.wc-forward,
 .jg-woocommerce-message .input-group-append .btn + a.wc-forward,
 .jg-woocommerce-message .input-group-append .wpcf7 input[type=submit] + a.wc-forward,
 .wpcf7 .jg-woocommerce-message .input-group-append input[type=submit] + a.wc-forward,
+.jg-woocommerce-message .input-group-append a.added_to_cart + a.wc-forward,
 .jg-woocommerce-message .input-group-append a.post-edit-link + a.wc-forward,
 .jg-woocommerce-message .input-group-append .jp-carousel-image-exif a.buy-button + a.wc-forward,
 .jp-carousel-image-exif .jg-woocommerce-message .input-group-append a.buy-button + a.wc-forward,
@@ -5035,6 +5068,7 @@ td.value .input-group > .custom-file + select,
 .input-group-append .reset_variations + .btn,
 .input-group-append .wpcf7 .reset_variations + input[type=submit],
 .wpcf7 .input-group-append .reset_variations + input[type=submit],
+.input-group-append .reset_variations + a.added_to_cart,
 .input-group-append .reset_variations + a.post-edit-link,
 .input-group-append .jp-carousel-image-exif .reset_variations + a.buy-button,
 .jp-carousel-image-exif .input-group-append .reset_variations + a.buy-button,
@@ -5043,6 +5077,7 @@ td.value .input-group > .custom-file + select,
 .input-group-append .btn + .reset_variations,
 .input-group-append .wpcf7 input[type=submit] + .reset_variations,
 .wpcf7 .input-group-append input[type=submit] + .reset_variations,
+.input-group-append a.added_to_cart + .reset_variations,
 .input-group-append a.post-edit-link + .reset_variations,
 .input-group-append .jp-carousel-image-exif a.buy-button + .reset_variations,
 .jp-carousel-image-exif .input-group-append a.buy-button + .reset_variations,
@@ -5052,6 +5087,7 @@ td.value .input-group > .custom-file + select,
 .input-group-append .add_to_cart_button + .btn,
 .input-group-append .wpcf7 .add_to_cart_button + input[type=submit],
 .wpcf7 .input-group-append .add_to_cart_button + input[type=submit],
+.input-group-append .add_to_cart_button + a.added_to_cart,
 .input-group-append .add_to_cart_button + a.post-edit-link,
 .input-group-append .jp-carousel-image-exif .add_to_cart_button + a.buy-button,
 .jp-carousel-image-exif .input-group-append .add_to_cart_button + a.buy-button,
@@ -5061,6 +5097,7 @@ td.value .input-group > .custom-file + select,
 .input-group-append .single_add_to_cart_button + .btn,
 .input-group-append .wpcf7 .single_add_to_cart_button + input[type=submit],
 .wpcf7 .input-group-append .single_add_to_cart_button + input[type=submit],
+.input-group-append .single_add_to_cart_button + a.added_to_cart,
 .input-group-append .single_add_to_cart_button + a.post-edit-link,
 .input-group-append .jp-carousel-image-exif .single_add_to_cart_button + a.buy-button,
 .jp-carousel-image-exif .input-group-append .single_add_to_cart_button + a.buy-button,
@@ -5070,6 +5107,7 @@ td.value .input-group > .custom-file + select,
 .input-group-append .btn + .add_to_cart_button,
 .input-group-append .wpcf7 input[type=submit] + .add_to_cart_button,
 .wpcf7 .input-group-append input[type=submit] + .add_to_cart_button,
+.input-group-append a.added_to_cart + .add_to_cart_button,
 .input-group-append a.post-edit-link + .add_to_cart_button,
 .input-group-append .jp-carousel-image-exif a.buy-button + .add_to_cart_button,
 .jp-carousel-image-exif .input-group-append a.buy-button + .add_to_cart_button,
@@ -5079,6 +5117,7 @@ td.value .input-group > .custom-file + select,
 .input-group-append .btn + .single_add_to_cart_button,
 .input-group-append .wpcf7 input[type=submit] + .single_add_to_cart_button,
 .wpcf7 .input-group-append input[type=submit] + .single_add_to_cart_button,
+.input-group-append a.added_to_cart + .single_add_to_cart_button,
 .input-group-append a.post-edit-link + .single_add_to_cart_button,
 .input-group-append .jp-carousel-image-exif a.buy-button + .single_add_to_cart_button,
 .jp-carousel-image-exif .input-group-append a.buy-button + .single_add_to_cart_button,
@@ -5092,6 +5131,7 @@ td.value .input-group > .custom-file + select,
 .input-group-append .update-cart-button + .btn,
 .input-group-append .wpcf7 .update-cart-button + input[type=submit],
 .wpcf7 .input-group-append .update-cart-button + input[type=submit],
+.input-group-append .update-cart-button + a.added_to_cart,
 .input-group-append .update-cart-button + a.post-edit-link,
 .input-group-append .jp-carousel-image-exif .update-cart-button + a.buy-button,
 .jp-carousel-image-exif .input-group-append .update-cart-button + a.buy-button,
@@ -5103,6 +5143,7 @@ td.value .input-group > .custom-file + select,
 .input-group-append .btn + .update-cart-button,
 .input-group-append .wpcf7 input[type=submit] + .update-cart-button,
 .wpcf7 .input-group-append input[type=submit] + .update-cart-button,
+.input-group-append a.added_to_cart + .update-cart-button,
 .input-group-append a.post-edit-link + .update-cart-button,
 .input-group-append .jp-carousel-image-exif a.buy-button + .update-cart-button,
 .jp-carousel-image-exif .input-group-append a.buy-button + .update-cart-button,
@@ -5115,6 +5156,7 @@ td.value .input-group > .custom-file + select,
 .input-group-append .woocommerce-info a.button + .btn,
 .input-group-append .woocommerce-info .wpcf7 a.button + input[type=submit],
 .wpcf7 .input-group-append .woocommerce-info a.button + input[type=submit],
+.input-group-append .woocommerce-info a.button + a.added_to_cart,
 .input-group-append .woocommerce-info a.button + a.post-edit-link,
 .input-group-append .woocommerce-info .jp-carousel-image-exif a.button + a.buy-button,
 .jp-carousel-image-exif .input-group-append .woocommerce-info a.button + a.buy-button,
@@ -5127,6 +5169,7 @@ td.value .input-group > .custom-file + select,
 .woocommerce-info .input-group-append a.button + .btn,
 .woocommerce-info .input-group-append .wpcf7 a.button + input[type=submit],
 .wpcf7 .woocommerce-info .input-group-append a.button + input[type=submit],
+.woocommerce-info .input-group-append a.button + a.added_to_cart,
 .woocommerce-info .input-group-append a.button + a.post-edit-link,
 .woocommerce-info .input-group-append .jp-carousel-image-exif a.button + a.buy-button,
 .jp-carousel-image-exif .woocommerce-info .input-group-append a.button + a.buy-button,
@@ -5139,6 +5182,7 @@ td.value .input-group > .custom-file + select,
 .input-group-append .woocommerce-info .btn + a.button,
 .input-group-append .woocommerce-info .wpcf7 input[type=submit] + a.button,
 .wpcf7 .input-group-append .woocommerce-info input[type=submit] + a.button,
+.input-group-append .woocommerce-info a.added_to_cart + a.button,
 .input-group-append .woocommerce-info a.post-edit-link + a.button,
 .input-group-append .woocommerce-info .jp-carousel-image-exif a.buy-button + a.button,
 .jp-carousel-image-exif .input-group-append .woocommerce-info a.buy-button + a.button,
@@ -5151,6 +5195,7 @@ td.value .input-group > .custom-file + select,
 .woocommerce-info .input-group-append .btn + a.button,
 .woocommerce-info .input-group-append .wpcf7 input[type=submit] + a.button,
 .wpcf7 .woocommerce-info .input-group-append input[type=submit] + a.button,
+.woocommerce-info .input-group-append a.added_to_cart + a.button,
 .woocommerce-info .input-group-append a.post-edit-link + a.button,
 .woocommerce-info .input-group-append .jp-carousel-image-exif a.buy-button + a.button,
 .jp-carousel-image-exif .woocommerce-info .input-group-append a.buy-button + a.button,
@@ -5165,6 +5210,7 @@ td.value .input-group > .custom-file + select,
 .input-group-append .woocommerce-notices-wrapper .woocommerce-message a.button + .btn,
 .input-group-append .woocommerce-notices-wrapper .woocommerce-message .wpcf7 a.button + input[type=submit],
 .wpcf7 .input-group-append .woocommerce-notices-wrapper .woocommerce-message a.button + input[type=submit],
+.input-group-append .woocommerce-notices-wrapper .woocommerce-message a.button + a.added_to_cart,
 .input-group-append .woocommerce-notices-wrapper .woocommerce-message a.button + a.post-edit-link,
 .input-group-append .woocommerce-notices-wrapper .woocommerce-message .jp-carousel-image-exif a.button + a.buy-button,
 .jp-carousel-image-exif .input-group-append .woocommerce-notices-wrapper .woocommerce-message a.button + a.buy-button,
@@ -5177,6 +5223,7 @@ td.value .input-group > .custom-file + select,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-append a.button + .btn,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-append .wpcf7 a.button + input[type=submit],
 .wpcf7 .woocommerce-notices-wrapper .woocommerce-message .input-group-append a.button + input[type=submit],
+.woocommerce-notices-wrapper .woocommerce-message .input-group-append a.button + a.added_to_cart,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-append a.button + a.post-edit-link,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-append .jp-carousel-image-exif a.button + a.buy-button,
 .jp-carousel-image-exif .woocommerce-notices-wrapper .woocommerce-message .input-group-append a.button + a.buy-button,
@@ -5189,6 +5236,7 @@ td.value .input-group > .custom-file + select,
 .input-group-append .woocommerce-notices-wrapper .woocommerce-message .btn + a.button,
 .input-group-append .woocommerce-notices-wrapper .woocommerce-message .wpcf7 input[type=submit] + a.button,
 .wpcf7 .input-group-append .woocommerce-notices-wrapper .woocommerce-message input[type=submit] + a.button,
+.input-group-append .woocommerce-notices-wrapper .woocommerce-message a.added_to_cart + a.button,
 .input-group-append .woocommerce-notices-wrapper .woocommerce-message a.post-edit-link + a.button,
 .input-group-append .woocommerce-notices-wrapper .woocommerce-message .jp-carousel-image-exif a.buy-button + a.button,
 .jp-carousel-image-exif .input-group-append .woocommerce-notices-wrapper .woocommerce-message a.buy-button + a.button,
@@ -5201,6 +5249,7 @@ td.value .input-group > .custom-file + select,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-append .btn + a.button,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-append .wpcf7 input[type=submit] + a.button,
 .wpcf7 .woocommerce-notices-wrapper .woocommerce-message .input-group-append input[type=submit] + a.button,
+.woocommerce-notices-wrapper .woocommerce-message .input-group-append a.added_to_cart + a.button,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-append a.post-edit-link + a.button,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-append .jp-carousel-image-exif a.buy-button + a.button,
 .jp-carousel-image-exif .woocommerce-notices-wrapper .woocommerce-message .input-group-append a.buy-button + a.button,
@@ -5215,6 +5264,7 @@ td.value .input-group > .custom-file + select,
 .input-group-append .btn + .input-group-text,
 .input-group-append .wpcf7 input[type=submit] + .input-group-text,
 .wpcf7 .input-group-append input[type=submit] + .input-group-text,
+.input-group-append a.added_to_cart + .input-group-text,
 .input-group-append a.post-edit-link + .input-group-text,
 .input-group-append .jp-carousel-image-exif a.buy-button + .input-group-text,
 .jp-carousel-image-exif .input-group-append a.buy-button + .input-group-text,
@@ -5232,6 +5282,7 @@ td.value .input-group > .custom-file + select,
 .input-group-append .input-group-text + .btn,
 .input-group-append .wpcf7 .input-group-text + input[type=submit],
 .wpcf7 .input-group-append .input-group-text + input[type=submit],
+.input-group-append .input-group-text + a.added_to_cart,
 .input-group-append .input-group-text + a.post-edit-link,
 .input-group-append .jp-carousel-image-exif .input-group-text + a.buy-button,
 .jp-carousel-image-exif .input-group-append .input-group-text + a.buy-button,
@@ -5323,6 +5374,7 @@ td.value .input-group > .custom-file + select,
 .input-group-lg > .input-group-append > .input-group-text,
 .input-group-lg > .input-group-prepend > .btn,
 .wpcf7 .input-group-lg > .input-group-prepend > input[type=submit],
+.input-group-lg > .input-group-prepend > a.added_to_cart,
 .input-group-lg > .input-group-prepend > a.post-edit-link,
 .jp-carousel-image-exif .input-group-lg > .input-group-prepend > a.buy-button,
 .jg-woocommerce-message .input-group-lg > .input-group-prepend > a.wc-forward,
@@ -5334,6 +5386,7 @@ td.value .input-group > .custom-file + select,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-lg > .input-group-prepend > a.button,
 .input-group-lg > .input-group-append > .btn,
 .wpcf7 .input-group-lg > .input-group-append > input[type=submit],
+.input-group-lg > .input-group-append > a.added_to_cart,
 .input-group-lg > .input-group-append > a.post-edit-link,
 .jp-carousel-image-exif .input-group-lg > .input-group-append > a.buy-button,
 .jg-woocommerce-message .input-group-lg > .input-group-append > a.wc-forward,
@@ -5396,6 +5449,7 @@ td.value .input-group > .custom-file + select,
 .input-group-sm > .input-group-append > .input-group-text,
 .input-group-sm > .input-group-prepend > .btn,
 .wpcf7 .input-group-sm > .input-group-prepend > input[type=submit],
+.input-group-sm > .input-group-prepend > a.added_to_cart,
 .input-group-sm > .input-group-prepend > a.post-edit-link,
 .jp-carousel-image-exif .input-group-sm > .input-group-prepend > a.buy-button,
 .jg-woocommerce-message .input-group-sm > .input-group-prepend > a.wc-forward,
@@ -5407,6 +5461,7 @@ td.value .input-group > .custom-file + select,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-sm > .input-group-prepend > a.button,
 .input-group-sm > .input-group-append > .btn,
 .wpcf7 .input-group-sm > .input-group-append > input[type=submit],
+.input-group-sm > .input-group-append > a.added_to_cart,
 .input-group-sm > .input-group-append > a.post-edit-link,
 .jp-carousel-image-exif .input-group-sm > .input-group-append > a.buy-button,
 .jg-woocommerce-message .input-group-sm > .input-group-append > a.wc-forward,
@@ -5427,10 +5482,11 @@ td.value .input-group > .custom-file + select,
   padding-right: 1.75rem;
 }
 
-.input-group > .input-group-prepend > .btn, .wpcf7 .input-group > .input-group-prepend > input[type=submit], .input-group > .input-group-prepend > a.post-edit-link, .jp-carousel-image-exif .input-group > .input-group-prepend > a.buy-button, .jg-woocommerce-message .input-group > .input-group-prepend > a.wc-forward, .input-group > .input-group-prepend > .reset_variations, .input-group > .input-group-prepend > .add_to_cart_button, .input-group > .input-group-prepend > .single_add_to_cart_button, .input-group > .input-group-prepend > .update-cart-button, .woocommerce-info .input-group > .input-group-prepend > a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group > .input-group-prepend > a.button,
+.input-group > .input-group-prepend > .btn, .wpcf7 .input-group > .input-group-prepend > input[type=submit], .input-group > .input-group-prepend > a.added_to_cart, .input-group > .input-group-prepend > a.post-edit-link, .jp-carousel-image-exif .input-group > .input-group-prepend > a.buy-button, .jg-woocommerce-message .input-group > .input-group-prepend > a.wc-forward, .input-group > .input-group-prepend > .reset_variations, .input-group > .input-group-prepend > .add_to_cart_button, .input-group > .input-group-prepend > .single_add_to_cart_button, .input-group > .input-group-prepend > .update-cart-button, .woocommerce-info .input-group > .input-group-prepend > a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group > .input-group-prepend > a.button,
 .input-group > .input-group-prepend > .input-group-text,
 .input-group:not(.has-validation) > .input-group-append:not(:last-child) > .btn,
 .wpcf7 .input-group:not(.has-validation) > .input-group-append:not(:last-child) > input[type=submit],
+.input-group:not(.has-validation) > .input-group-append:not(:last-child) > a.added_to_cart,
 .input-group:not(.has-validation) > .input-group-append:not(:last-child) > a.post-edit-link,
 .jp-carousel-image-exif .input-group:not(.has-validation) > .input-group-append:not(:last-child) > a.buy-button,
 .jg-woocommerce-message .input-group:not(.has-validation) > .input-group-append:not(:last-child) > a.wc-forward,
@@ -5443,6 +5499,7 @@ td.value .input-group > .custom-file + select,
 .input-group:not(.has-validation) > .input-group-append:not(:last-child) > .input-group-text,
 .input-group.has-validation > .input-group-append:nth-last-child(n+3) > .btn,
 .wpcf7 .input-group.has-validation > .input-group-append:nth-last-child(n+3) > input[type=submit],
+.input-group.has-validation > .input-group-append:nth-last-child(n+3) > a.added_to_cart,
 .input-group.has-validation > .input-group-append:nth-last-child(n+3) > a.post-edit-link,
 .jp-carousel-image-exif .input-group.has-validation > .input-group-append:nth-last-child(n+3) > a.buy-button,
 .jg-woocommerce-message .input-group.has-validation > .input-group-append:nth-last-child(n+3) > a.wc-forward,
@@ -5455,6 +5512,7 @@ td.value .input-group > .custom-file + select,
 .input-group.has-validation > .input-group-append:nth-last-child(n+3) > .input-group-text,
 .input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
 .wpcf7 .input-group > .input-group-append:last-child > input[type=submit]:not(:last-child):not(.dropdown-toggle),
+.input-group > .input-group-append:last-child > a.added_to_cart:not(:last-child):not(.dropdown-toggle),
 .input-group > .input-group-append:last-child > a.post-edit-link:not(:last-child):not(.dropdown-toggle),
 .jp-carousel-image-exif .input-group > .input-group-append:last-child > a.buy-button:not(:last-child):not(.dropdown-toggle),
 .jg-woocommerce-message .input-group > .input-group-append:last-child > a.wc-forward:not(:last-child):not(.dropdown-toggle),
@@ -5469,10 +5527,11 @@ td.value .input-group > .custom-file + select,
   border-bottom-right-radius: 0;
 }
 
-.input-group > .input-group-append > .btn, .wpcf7 .input-group > .input-group-append > input[type=submit], .input-group > .input-group-append > a.post-edit-link, .jp-carousel-image-exif .input-group > .input-group-append > a.buy-button, .jg-woocommerce-message .input-group > .input-group-append > a.wc-forward, .input-group > .input-group-append > .reset_variations, .input-group > .input-group-append > .add_to_cart_button, .input-group > .input-group-append > .single_add_to_cart_button, .input-group > .input-group-append > .update-cart-button, .woocommerce-info .input-group > .input-group-append > a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group > .input-group-append > a.button,
+.input-group > .input-group-append > .btn, .wpcf7 .input-group > .input-group-append > input[type=submit], .input-group > .input-group-append > a.added_to_cart, .input-group > .input-group-append > a.post-edit-link, .jp-carousel-image-exif .input-group > .input-group-append > a.buy-button, .jg-woocommerce-message .input-group > .input-group-append > a.wc-forward, .input-group > .input-group-append > .reset_variations, .input-group > .input-group-append > .add_to_cart_button, .input-group > .input-group-append > .single_add_to_cart_button, .input-group > .input-group-append > .update-cart-button, .woocommerce-info .input-group > .input-group-append > a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group > .input-group-append > a.button,
 .input-group > .input-group-append > .input-group-text,
 .input-group > .input-group-prepend:not(:first-child) > .btn,
 .wpcf7 .input-group > .input-group-prepend:not(:first-child) > input[type=submit],
+.input-group > .input-group-prepend:not(:first-child) > a.added_to_cart,
 .input-group > .input-group-prepend:not(:first-child) > a.post-edit-link,
 .jp-carousel-image-exif .input-group > .input-group-prepend:not(:first-child) > a.buy-button,
 .jg-woocommerce-message .input-group > .input-group-prepend:not(:first-child) > a.wc-forward,
@@ -5485,6 +5544,7 @@ td.value .input-group > .custom-file + select,
 .input-group > .input-group-prepend:not(:first-child) > .input-group-text,
 .input-group > .input-group-prepend:first-child > .btn:not(:first-child),
 .wpcf7 .input-group > .input-group-prepend:first-child > input[type=submit]:not(:first-child),
+.input-group > .input-group-prepend:first-child > a.added_to_cart:not(:first-child),
 .input-group > .input-group-prepend:first-child > a.post-edit-link:not(:first-child),
 .jp-carousel-image-exif .input-group > .input-group-prepend:first-child > a.buy-button:not(:first-child),
 .jg-woocommerce-message .input-group > .input-group-prepend:first-child > a.wc-forward:not(:first-child),
@@ -6725,7 +6785,7 @@ a.badge:hover, a.badge:focus {
   display: none;
 }
 
-.btn .badge, .wpcf7 input[type=submit] .badge, a.post-edit-link .badge, .jp-carousel-image-exif a.buy-button .badge, .jg-woocommerce-message a.wc-forward .badge, .reset_variations .badge, .add_to_cart_button .badge, .single_add_to_cart_button .badge, .update-cart-button .badge, .woocommerce-info a.button .badge, .woocommerce-notices-wrapper .woocommerce-message a.button .badge {
+.btn .badge, .wpcf7 input[type=submit] .badge, a.added_to_cart .badge, a.post-edit-link .badge, .jp-carousel-image-exif a.buy-button .badge, .jg-woocommerce-message a.wc-forward .badge, .reset_variations .badge, .add_to_cart_button .badge, .single_add_to_cart_button .badge, .update-cart-button .badge, .woocommerce-info a.button .badge, .woocommerce-notices-wrapper .woocommerce-message a.button .badge {
   position: relative;
   top: -1px;
 }
@@ -6884,7 +6944,7 @@ a.badge-dark-accent:focus, a.badge-dark-accent.focus {
   border-radius: 0;
 }
 
-.alert, .jg-woocommerce-info, .jg-woocommerce-message, .woocommerce-info, .woocommerce-notices-wrapper .woocommerce-message {
+.alert, p.woocommerce-notice, .jg-woocommerce-info, .jg-woocommerce-message, .woocommerce-info, .woocommerce-notices-wrapper .woocommerce-message {
   position: relative;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
@@ -6936,27 +6996,27 @@ a.badge-dark-accent:focus, a.badge-dark-accent.focus {
   color: black;
 }
 
-.alert-success, .jg-woocommerce-message, .woocommerce-notices-wrapper .woocommerce-message {
+.alert-success, p.woocommerce-notice--success, .jg-woocommerce-message, .woocommerce-notices-wrapper .woocommerce-message {
   color: #155724;
   background-color: #d4edda;
   border-color: #c3e6cb;
 }
-.alert-success hr, .jg-woocommerce-message hr, .woocommerce-notices-wrapper .woocommerce-message hr {
+.alert-success hr, p.woocommerce-notice--success hr, .jg-woocommerce-message hr, .woocommerce-notices-wrapper .woocommerce-message hr {
   border-top-color: #b1dfbb;
 }
-.alert-success .alert-link, .jg-woocommerce-message .alert-link, .woocommerce-notices-wrapper .woocommerce-message .alert-link {
+.alert-success .alert-link, p.woocommerce-notice--success .alert-link, .jg-woocommerce-message .alert-link, .woocommerce-notices-wrapper .woocommerce-message .alert-link {
   color: #0b2e13;
 }
 
-.alert-info, .jg-woocommerce-info, .woocommerce-info {
+.alert-info, p.woocommerce-notice--info, .jg-woocommerce-info, .woocommerce-info {
   color: #0c5460;
   background-color: #d1ecf1;
   border-color: #bee5eb;
 }
-.alert-info hr, .jg-woocommerce-info hr, .woocommerce-info hr {
+.alert-info hr, p.woocommerce-notice--info hr, .jg-woocommerce-info hr, .woocommerce-info hr {
   border-top-color: #abdde5;
 }
-.alert-info .alert-link, .jg-woocommerce-info .alert-link, .woocommerce-info .alert-link {
+.alert-info .alert-link, p.woocommerce-notice--info .alert-link, .jg-woocommerce-info .alert-link, .woocommerce-info .alert-link {
   color: #062c33;
 }
 
@@ -6972,15 +7032,15 @@ a.badge-dark-accent:focus, a.badge-dark-accent.focus {
   color: #533f03;
 }
 
-.alert-danger, .woocommerce-notices-wrapper .woocommerce-message.woocommerce-error {
+.alert-danger, p.woocommerce-notice--error, .woocommerce-notices-wrapper .woocommerce-message.woocommerce-error {
   color: #721c24;
   background-color: #f8d7da;
   border-color: #f5c6cb;
 }
-.alert-danger hr, .woocommerce-notices-wrapper .woocommerce-message.woocommerce-error hr {
+.alert-danger hr, p.woocommerce-notice--error hr, .woocommerce-notices-wrapper .woocommerce-message.woocommerce-error hr {
   border-top-color: #f1b0b7;
 }
-.alert-danger .alert-link, .woocommerce-notices-wrapper .woocommerce-message.woocommerce-error .alert-link {
+.alert-danger .alert-link, p.woocommerce-notice--error .alert-link, .woocommerce-notices-wrapper .woocommerce-message.woocommerce-error .alert-link {
   color: #491217;
 }
 
@@ -8773,7 +8833,8 @@ button.bg-dark-accent:focus {
   justify-content: flex-end !important;
 }
 
-.justify-content-center, a.navbar-brand, h1.navbar-brand {
+.justify-content-center, a.navbar-brand,
+h1.navbar-brand {
   justify-content: center !important;
 }
 
@@ -12077,7 +12138,7 @@ a.text-dark-accent:hover, a.text-dark-accent:focus {
     box-shadow: none !important;
   }
 
-  a:not(.btn):not(a.post-edit-link):not(.reset_variations):not(.add_to_cart_button):not(.single_add_to_cart_button):not(.update-cart-button) {
+  a:not(.btn):not(a.added_to_cart):not(a.post-edit-link):not(.reset_variations):not(.add_to_cart_button):not(.single_add_to_cart_button):not(.update-cart-button) {
     text-decoration: underline;
   }
 
@@ -15421,7 +15482,8 @@ figure.woocommerce-product-gallery__wrapper {
   display: block;
 }
 
-#index-wrapper, #single-wrapper {
+#index-wrapper,
+#single-wrapper {
   max-width: 80%;
   margin: 0 auto;
 }
@@ -15435,7 +15497,8 @@ h1 {
   text-align: center;
 }
 
-a.navbar-brand, h1.navbar-brand {
+a.navbar-brand,
+h1.navbar-brand {
   display: flex;
   font-size: 1.5em;
   font-weight: 700;
@@ -15486,7 +15549,8 @@ a.navbar-brand, h1.navbar-brand {
   font-family: Helvetica, sans-serif;
 }
 
-.sku_wrapper, .posted_in {
+.sku_wrapper,
+.posted_in {
   display: block;
 }
 
@@ -15633,6 +15697,59 @@ body.single-post .entry-meta {
 .featured-image {
   text-align: center;
   margin-bottom: 2em;
+}
+
+/* Add to cart action */
+/* Reset max-width for col-1 and col-2, which WooCommerce uses without regard to Bootstrap */
+.woocommerce .col-1,
+.woocommerce .col-2 {
+  max-width: none;
+}
+
+p.woocommerce-notice {
+  margin: 20px auto;
+  text-align: center;
+  width: 80%;
+}
+
+/* # WooCommerce Cart Icon CSS with FontAwesome 5
+---------------------------------------------------------------------------------------------------- */
+.cart-contents {
+  position: relative;
+  display: flex !important;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.cart-contents:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f07a" !important;
+  font-size: 30px;
+  color: #656c1b;
+}
+
+.cart-contents:hover {
+  text-decoration: none;
+}
+
+.cart-contents-count {
+  position: absolute;
+  top: 15px;
+  right: 1px;
+  transform: translateY(-105%) translateX(25%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  background-color: #dc3545;
+  border-radius: 50%;
+  padding: 1px;
 }
 
 .has-blue-color,
